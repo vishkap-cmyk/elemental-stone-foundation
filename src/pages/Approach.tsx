@@ -25,7 +25,7 @@ const Approach = () => {
             </h1>
             
             <p className="text-body-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in-delayed">
-              Elemental works with a small number of organisations at a time. Work is collaborative, retained, and anchored in measurable institutional engagement — not quick hits or tactical experiments.
+              Elemental works with a small number of organisations at a time. Engagements are retained, senior-led, and measured by institutional outcomes — not activity or tactical output.
             </p>
             
             <div className="animate-fade-in-delayed-2">
@@ -37,19 +37,19 @@ const Approach = () => {
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">
-                    Building disciplined GTM frameworks that reflect the realities of institutions, not communities
+                    Disciplined GTM frameworks built for institutional buyers, not community adoption
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">
-                    Aligning product strategy with compliance and regulatory expectation
+                    Product and positioning aligned to compliance and regulatory expectation
                   </span>
                 </li>
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">
-                    Facilitating partner engagement that scales commercially and sustainably
+                    Partner engagement structured for commercial sustainability, not volume
                   </span>
                 </li>
               </ul>
