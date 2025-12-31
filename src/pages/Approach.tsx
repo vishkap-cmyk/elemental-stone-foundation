@@ -8,42 +8,83 @@ const Approach = () => {
         <title>Approach — Elemental</title>
         <meta 
           name="description" 
-          content="Advisory, hands-on, and limited in scope. Focus on clarity of positioning, partner strategy, and execution discipline." 
+          content="Focused on outcomes, not outputs. Advisory work anchored in measurable institutional engagement." 
         />
       </Helmet>
       
       <Layout>
-        <section className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-section">
+        {/* Our Approach */}
+        <section className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-20 md:pb-32">
           <div className="max-w-2xl">
             <p className="text-caption uppercase tracking-widest text-muted-foreground mb-6 animate-fade-in">
-              Approach
+              Our Approach
             </p>
             
-            <h1 className="font-serif text-title mb-12 animate-fade-in-delayed">
-              Selective, senior-level advisory
+            <h1 className="font-serif text-title mb-10 animate-fade-in-delayed">
+              Focused on outcomes, not outputs.
             </h1>
             
-            <div className="space-y-8 animate-fade-in-delayed-2">
-              <p className="text-body-lg text-muted-foreground leading-relaxed">
-                Work is typically advisory, hands-on, and limited in scope. Engagements focus on clarity of positioning, partner strategy, and execution discipline rather than volume or scale consulting.
-              </p>
-              
-              <p className="text-body-lg text-muted-foreground leading-relaxed">
-                Most work is retained, senior, and collaborative with leadership, product, and compliance stakeholders. Elemental does not operate as an agency and does not take on open-ended mandates.
-              </p>
-            </div>
+            <p className="text-body-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in-delayed">
+              Elemental works with a small number of organisations at a time. Work is collaborative, retained, and anchored in measurable institutional engagement — not quick hits or tactical experiments.
+            </p>
             
-            {/* Divider */}
-            <div className="h-px w-16 bg-border mt-16 mb-16 animate-fade-in-delayed-3" />
-            
-            <div className="animate-fade-in-delayed-3">
+            <div className="animate-fade-in-delayed-2">
               <p className="text-caption uppercase tracking-widest text-muted-foreground mb-6">
-                Background
+                We specialise in
               </p>
               
-              <p className="text-body text-muted-foreground/80 leading-relaxed max-w-xl">
-                Experience across senior GTM and commercial strategy roles in digital assets, real-world asset platforms, and high-growth technology companies. This includes leadership roles in on-chain wealth platforms, early-stage market expansion, and advisory work with organisations navigating institutional adoption and regulatory complexity.
+              <ul className="space-y-4">
+                <li className="flex items-start gap-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                  <span className="text-body-lg">
+                    Building disciplined GTM frameworks that reflect the realities of institutions, not communities
+                  </span>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                  <span className="text-body-lg">
+                    Aligning product strategy with compliance and regulatory expectation
+                  </span>
+                </li>
+                <li className="flex items-start gap-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                  <span className="text-body-lg">
+                    Facilitating partner engagement that scales commercially and sustainably
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        
+        {/* How We Work */}
+        <section className="container mx-auto px-6 md:px-12 pb-section">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
+            <div className="max-w-2xl">
+              <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                How We Work
               </p>
+              
+              <ul className="space-y-6">
+                <li>
+                  <h3 className="font-serif text-xl mb-2">Respect confidentiality and institutional norms</h3>
+                  <p className="text-body text-muted-foreground">
+                    Work is conducted with discretion appropriate to regulated environments.
+                  </p>
+                </li>
+                <li>
+                  <h3 className="font-serif text-xl mb-2">Engage with ownership</h3>
+                  <p className="text-body text-muted-foreground">
+                    We work with senior leadership, not task managers.
+                  </p>
+                </li>
+                <li>
+                  <h3 className="font-serif text-xl mb-2">Prioritise clarity over hype</h3>
+                  <p className="text-body text-muted-foreground">
+                    Swiss and UK audiences read restraint as credibility.
+                  </p>
+                </li>
+              </ul>
             </div>
           </div>
         </section>
