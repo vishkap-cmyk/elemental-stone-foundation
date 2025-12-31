@@ -32,3 +32,24 @@ export const home = {
     body: "Selective, senior-led engagements. If you’re building regulated digital-asset or wealth infrastructure and need institutional distribution, let’s talk."
   }
 };
+
+export const approach = {
+  hero: {
+    eyebrow: "Our Approach",
+    headline: "Focused on outcomes, not outputs.",
+    lead:
+      "Elemental works with a small number of organisations at a time. Engagements are retained, senior-led, and measured by institutional outcomes — not activity or tactical output."
+  },
+
+  specialisms: [
+    "Disciplined GTM frameworks built for institutional buyers, not community adoption",
+    "Product and positioning aligned to compliance and regulatory expectations",
+    "Partner engagement structured for commercial sustainability, not volume"
+  ],
+
+  howWeWork: [
+    "Respect confidentiality and institutional norms",
+    "Engage with commercial ownership",
+    "Prioritise clarity over hype"
+  ]
+};
