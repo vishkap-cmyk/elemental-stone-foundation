@@ -14,52 +14,147 @@ const Index = () => {
       
       <Layout>
         {/* Hero Section */}
-        <section className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-section">
+        <section className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-20 md:pb-32">
           <div className="max-w-4xl">
             <h1 className="font-serif text-display text-balance animate-fade-in">
               Institutional GTM & Commercial Strategy for Digital Asset and Wealth Infrastructure
             </h1>
             
             <p className="mt-10 md:mt-14 text-body-lg text-muted-foreground max-w-2xl leading-relaxed animate-fade-in-delayed">
-              Elemental works with a small number of organisations operating at the intersection of digital assets, wealth, and regulated market infrastructure. The focus is on institutional adoption: market entry, partnerships, and go-to-market execution in compliance-aware environments.
+              Trusted by institutions, custody providers, and regulated platforms to translate complexity into adoption.
             </p>
           </div>
         </section>
         
-        {/* Focus Areas */}
-        <section className="container mx-auto px-6 md:px-12 pb-section">
-          <div className="border-t border-border/50 pt-16 md:pt-24 animate-fade-in-delayed-2">
-            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-10">
-              Focus Areas
+        {/* What We Do */}
+        <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed">
+            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+              What We Do
             </p>
             
-            <ul className="space-y-5 max-w-2xl">
+            <p className="text-body-lg mb-10 max-w-2xl">
+              We help organisations solve three core challenges:
+            </p>
+            
+            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+              <div>
+                <h3 className="font-serif text-xl mb-3">Institutional adoption</h3>
+                <p className="text-body text-muted-foreground leading-relaxed">
+                  Design and execute GTM strategies that meet regulated buyer expectations.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="font-serif text-xl mb-3">Partnership acceleration</h3>
+                <p className="text-body text-muted-foreground leading-relaxed">
+                  Build commercial relationships with advisors, wealth managers, custodians, and asset platforms.
+                </p>
+              </div>
+              
+              <div>
+                <h3 className="font-serif text-xl mb-3">Market entry & positioning</h3>
+                <p className="text-body text-muted-foreground leading-relaxed">
+                  Align products with compliance realities and institutional buyer criteria.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        {/* Why It Matters */}
+        <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-2">
+            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+              Why It Matters
+            </p>
+            
+            <div className="max-w-2xl">
+              <p className="text-body-lg leading-relaxed mb-6">
+                Institutions weigh trust, regulatory alignment, and execution discipline more than hype.
+              </p>
+              <p className="text-body text-muted-foreground leading-relaxed">
+                Elemental operates where technical complexity meets institutional judgement — turning barriers into pathways.
+              </p>
+            </div>
+          </div>
+        </section>
+        
+        {/* Selected Outcomes */}
+        <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-2">
+            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+              Selected Outcomes
+            </p>
+            
+            <ul className="space-y-4 max-w-2xl">
               <li className="flex items-start gap-4">
                 <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                 <span className="text-body-lg">
-                  Institutional GTM & distribution strategy
+                  ~$95m in net AUM growth led in institutional channels
                 </span>
               </li>
               <li className="flex items-start gap-4">
                 <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                 <span className="text-body-lg">
-                  Partnerships across wealth, custody, and market infrastructure
+                  Early-market scaling to seven-figure ARR in year one
                 </span>
               </li>
               <li className="flex items-start gap-4">
                 <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                 <span className="text-body-lg">
-                  Market entry and positioning in regulated or regulation-adjacent contexts
+                  Institutional adoption of publicly-used data platforms
                 </span>
               </li>
             </ul>
           </div>
         </section>
         
-        {/* Subtle divider element */}
-        <div className="container mx-auto px-6 md:px-12 pb-section animate-fade-in-delayed-3">
-          <div className="h-px w-24 bg-border" />
-        </div>
+        {/* Who We Work With */}
+        <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
+            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+              Who We Work With
+            </p>
+            
+            <ul className="grid md:grid-cols-2 gap-x-12 gap-y-3 max-w-2xl">
+              <li className="flex items-center gap-3">
+                <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
+                <span className="text-body">Digital asset platforms</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
+                <span className="text-body">Wealth infrastructure providers</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
+                <span className="text-body">Custody and regulated financial institutions</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
+                <span className="text-body">Market infrastructure partners</span>
+              </li>
+              <li className="flex items-center gap-3">
+                <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
+                <span className="text-body">Institutional investor channels</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        
+        {/* CTA */}
+        <section className="container mx-auto px-6 md:px-12 pb-section">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
+            <div className="max-w-xl">
+              <p className="font-serif text-title mb-6">
+                Strategic conversations by invitation.
+              </p>
+              <p className="text-body text-muted-foreground leading-relaxed">
+                If you are working at the intersection of regulated markets and institutional adoption, let's talk.
+              </p>
+            </div>
+          </div>
+        </section>
       </Layout>
     </>
   );
