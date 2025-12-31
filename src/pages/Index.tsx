@@ -21,7 +21,7 @@ const Index = () => {
             </h1>
             
             <p className="mt-10 md:mt-14 text-body-lg text-muted-foreground max-w-2xl leading-relaxed animate-fade-in-delayed">
-              Trusted by institutions, custody providers, and regulated platforms to translate complexity into adoption.
+              Advisory for regulated platforms, custodians, and wealth infrastructure providers navigating institutional adoption.
             </p>
           </div>
         </section>
@@ -33,29 +33,25 @@ const Index = () => {
               What We Do
             </p>
             
-            <p className="text-body-lg mb-10 max-w-2xl">
-              We help organisations solve three core challenges:
-            </p>
-            
             <div className="grid md:grid-cols-3 gap-8 md:gap-12">
               <div>
                 <h3 className="font-serif text-xl mb-3">Institutional adoption</h3>
                 <p className="text-body text-muted-foreground leading-relaxed">
-                  Design and execute GTM strategies that meet regulated buyer expectations.
+                  GTM strategy aligned to regulated buyer expectations and institutional due diligence.
                 </p>
               </div>
               
               <div>
                 <h3 className="font-serif text-xl mb-3">Partnership acceleration</h3>
                 <p className="text-body text-muted-foreground leading-relaxed">
-                  Build commercial relationships with advisors, wealth managers, custodians, and asset platforms.
+                  Commercial engagement with wealth managers, custodians, and market infrastructure providers.
                 </p>
               </div>
               
               <div>
                 <h3 className="font-serif text-xl mb-3">Market entry & positioning</h3>
                 <p className="text-body text-muted-foreground leading-relaxed">
-                  Align products with compliance realities and institutional buyer criteria.
+                  Positioning and compliance alignment for regulated or regulation-adjacent markets.
                 </p>
               </div>
             </div>
@@ -71,10 +67,10 @@ const Index = () => {
             
             <div className="max-w-2xl">
               <p className="text-body-lg leading-relaxed mb-6">
-                Institutions weigh trust, regulatory alignment, and execution discipline more than hype.
+                Institutional buyers assess trust, regulatory alignment, and execution discipline before product.
               </p>
               <p className="text-body text-muted-foreground leading-relaxed">
-                Elemental operates where technical complexity meets institutional judgement — turning barriers into pathways.
+                Elemental works where technical complexity meets institutional scrutiny — structuring adoption, not selling it.
               </p>
             </div>
           </div>
@@ -147,10 +143,10 @@ const Index = () => {
           <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
             <div className="max-w-xl">
               <p className="font-serif text-title mb-6">
-                Strategic conversations by invitation.
+                Private introductions only.
               </p>
               <p className="text-body text-muted-foreground leading-relaxed">
-                If you are working at the intersection of regulated markets and institutional adoption, let's talk.
+                Engagements are selective. If you operate at the intersection of regulated markets and institutional adoption, we should speak.
               </p>
             </div>
           </div>
