@@ -65,24 +65,18 @@ const Approach = () => {
                 How We Work
               </p>
               
-              <ul className="space-y-6">
-                <li>
-                  <h3 className="font-serif text-xl mb-2">Respect confidentiality and institutional norms</h3>
-                  <p className="text-body text-muted-foreground">
-                    Work is conducted with discretion appropriate to regulated environments.
-                  </p>
+              <ul className="space-y-4">
+                <li className="flex items-start gap-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                  <span className="text-body-lg">Respect confidentiality and institutional norms</span>
                 </li>
-                <li>
-                  <h3 className="font-serif text-xl mb-2">Engage with ownership</h3>
-                  <p className="text-body text-muted-foreground">
-                    We work with senior leadership, not task managers.
-                  </p>
+                <li className="flex items-start gap-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                  <span className="text-body-lg">Engage with ownership</span>
                 </li>
-                <li>
-                  <h3 className="font-serif text-xl mb-2">Prioritise clarity over hype</h3>
-                  <p className="text-body text-muted-foreground">
-                    Swiss and UK audiences read restraint as credibility.
-                  </p>
+                <li className="flex items-start gap-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                  <span className="text-body-lg">Prioritise clarity over hype</span>
                 </li>
               </ul>
             </div>
