@@ -2,7 +2,7 @@
 
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
-import { home } from "@/content/copy";
+import { home } from "@/copy";
 
 const Index = () => {
   return (
