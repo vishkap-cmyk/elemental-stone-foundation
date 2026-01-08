@@ -4,10 +4,10 @@ import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 
 const Approach = () => {
-  return ( 
+  return (
     <>
       <Helmet>
-        <title>Approach — Elemental</title>
+        <title>Approach - Elemental</title>
         <meta
           name="description"
           content="Research-led, senior advisory focused on institutional outcomes. Strategy, structure, and operating readiness for digital assets."
@@ -27,9 +27,8 @@ const Approach = () => {
             </h1>
 
             <p className="text-body-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in-delayed">
-              Elemental works with a small number of organisations at a time.
-              Engagements are retained, senior-led, and measured by institutional
-              outcomes, not activity or tactical output.
+              Elemental works with a small number of organisations at a time. Engagements are retained,
+              senior-led, and measured by institutional outcomes, not activity or tactical output.
             </p>
 
             <div className="animate-fade-in-delayed-2">
@@ -41,32 +40,28 @@ const Approach = () => {
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">
-                    Infrastructure and jurisdiction mapping across custody, fund
-                    structure, governance, and reporting
+                    Infrastructure and jurisdiction mapping across custody, fund structure, governance, and reporting
                   </span>
                 </li>
 
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">
-                    Disciplined GTM frameworks built for institutional buyers,
-                    not community adoption
+                    Disciplined GTM frameworks built for institutional buyers, not community adoption
                   </span>
                 </li>
 
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">
-                    Product and positioning aligned to compliance and
-                    regulatory expectation
+                    Product and positioning aligned to compliance and regulatory expectation
                   </span>
                 </li>
 
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">
-                    Partner engagement structured for commercial sustainability,
-                    not volume
+                    Partner engagement structured for commercial sustainability, not volume
                   </span>
                 </li>
               </ul>
@@ -85,14 +80,14 @@ const Approach = () => {
               <ul className="space-y-4">
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
-                  <span className="text-body-lg">
-                    Respect confidentiality and institutional norms
-                  </span>
+                  <span className="text-body-lg">Respect confidentiality and institutional norms</span>
                 </li>
+
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">Engage with ownership</span>
                 </li>
+
                 <li className="flex items-start gap-4">
                   <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
                   <span className="text-body-lg">Prioritise clarity over hype</span>
