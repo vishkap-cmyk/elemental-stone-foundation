@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import { home } from "@/content/copy";
 
 const Index = () => {
-  return (
+  return ( 
     <>
       <Helmet>
         <title>Elemental — Digital Asset Strategy & Wealth Infrastructure</title>
