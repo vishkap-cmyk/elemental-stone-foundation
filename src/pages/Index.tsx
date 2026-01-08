@@ -1,3 +1,5 @@
+// src/pages/index.tsx
+
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import { home } from "@/content/copy";
@@ -6,10 +8,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Elemental — Institutional GTM & Commercial Strategy</title>
+        <title>Elemental — Digital Asset Strategy & Wealth Infrastructure</title>
         <meta
           name="description"
-          content="Institutional GTM and commercial strategy for digital asset and wealth infrastructure. Market entry, partnerships, and go-to-market execution."
+          content="Research-led advisory and execution for family offices, wealth managers, and funds navigating digital assets. Strategy, structure, and institutional-grade market infrastructure."
         />
       </Helmet>
 
@@ -105,9 +107,7 @@ const Index = () => {
         <section className="container mx-auto px-6 md:px-12 pb-section">
           <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
             <div className="max-w-xl">
-              <p className="font-serif text-title mb-6">
-                {home.cta.title}
-              </p>
+              <p className="font-serif text-title mb-6">{home.cta.title}</p>
               <p className="text-body text-muted-foreground leading-relaxed">
                 {home.cta.body}
               </p>
