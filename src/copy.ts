@@ -1,55 +1,53 @@
-// src/content/copy.ts
-
 export const home = {
   hero: {
-    headline: "Institutional GTM & Commercial Strategy for Digital Asset and Wealth Infrastructure",
-    subhead: "Senior-led GTM and partner strategy for regulated digital asset and wealth platforms entering institutional channels."
+    headline: "Research-led advisory for digital assets and wealth infrastructure.",
+    subhead:
+      "Elemental helps family offices, wealth managers, and funds translate digital asset innovation into durable structures across custody, governance, reporting, and market access.",
   },
 
   whatWeDo: [
     {
-      title: "Institutional adoption",
-      body: "GTM strategy built for institutional buyers: due diligence narratives, buyer mapping, and conversion pathways."
+      title: "Research",
+      body:
+        "Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Clear constraints, not narratives.",
     },
     {
-      title: "Partnership acceleration",
-      body: "Partnership design and execution with wealth managers, custodians, and platform partners — from first contact to signed motion."
+      title: "Advisory",
+      body:
+        "Senior-led engagements to define strategy, structure, and operating model for digital asset exposure and infrastructure partnerships.",
     },
     {
-      title: "Market entry & positioning",
-      body: "Market entry and positioning for regulation-adjacent environments: messaging, sequencing, and compliance-aware go-to-market."
-    }
+      title: "Build",
+      body:
+        "Selective execution support to turn strategy into systems, workflows, and integrations where it makes sense to productise.",
+    },
   ],
 
+  whyItMatters: {
+    lead:
+      "Digital assets are moving into institutional portfolios, but the operating reality remains fragmented.",
+    body:
+      "For wealth and fund operators, the hard problems are custody, governance, reporting, counterparty risk, regulatory posture, and integration with existing investment processes. Elemental focuses on decisions that reduce ambiguity and make participation durable.",
+  },
+
   outcomes: [
-    "Scaled AUM from ~$30m to ~$125m through advisor and institutional distribution (~$95m net growth).",
-    "Scaled a new market to ~€6m ARR in year one.",
-    "Built platforms adopted by institutional stakeholders."
+    "Defined operating model for digital asset exposure across custody, governance, and reporting",
+    "Mapped jurisdictional options and decision criteria for Switzerland and the EU",
+    "Partner strategy for custodians, execution venues, and infrastructure providers with clear selection logic",
+    "Institutional GTM plan where relevant, built around buyers, procurement, and risk committees",
+  ],
+
+  whoWeWorkWith: [
+    "Family offices and UHNW principals",
+    "Wealth managers and private banks",
+    "Digital asset funds and allocators",
+    "Custody, trading, and reporting infrastructure providers",
+    "Founders building institutional crypto products",
   ],
 
   cta: {
-    title: "Prefer warm introductions.",
-    body: "Selective, senior-led engagements. If you’re building regulated digital-asset or wealth infrastructure and need institutional distribution, let’s talk."
-  }
-};
-
-export const approach = {
-  hero: {
-    eyebrow: "Our Approach",
-    headline: "Focused on outcomes, not outputs.",
-    lead:
-      "Elemental works with a small number of organisations at a time. Engagements are retained, senior-led, and measured by institutional outcomes — not activity or tactical output."
+    title: "In Switzerland in January.",
+    body:
+      "If you’re working on custody, fund structure, wealth infrastructure, or institutional adoption, I’m happy to compare notes and map the terrain. Short meetings are best.",
   },
-
-  specialisms: [
-    "Disciplined GTM frameworks built for institutional buyers, not community adoption",
-    "Product and positioning aligned to compliance and regulatory expectations",
-    "Partner engagement structured for commercial sustainability, not volume"
-  ],
-
-  howWeWork: [
-    "Respect confidentiality and institutional norms",
-    "Engage with commercial ownership",
-    "Prioritise clarity over hype"
-  ]
 };
