@@ -1,11 +1,37 @@
-export const home = {
+// src/content/copy.ts
+// Ensure this path matches your alias import "@/content/copy"
+
+export type HomeWhatWeDoItem = {
+  title: string;
+  body: string;
+};
+
+export type HomeCopy = {
+  hero: {
+    headline: string;
+    subhead: string;
+  };
+  whatWeDo: HomeWhatWeDoItem[];
+  whyItMatters: {
+    lead: string;
+    body: string;
+  };
+  outcomes: string[];
+  whoWeWorkWith: string[];
+  cta: {
+    title: string;
+    body: string;
+  };
+};
+
+export const home: HomeCopy = {
   hero: {
     headline: "Research-led advisory for digital assets and wealth infrastructure.",
     subhead:
       "Elemental helps family offices, wealth managers, and funds translate digital asset innovation into durable structures across custody, governance, reporting, and market access.",
   },
 
-  whatWeDo: [ 
+  whatWeDo: [
     {
       title: "Research",
       body:
@@ -24,8 +50,7 @@ export const home = {
   ],
 
   whyItMatters: {
-    lead:
-      "Digital assets are moving into institutional portfolios, but the operating reality remains fragmented.",
+    lead: "Digital assets are moving into institutional portfolios, but the operating reality remains fragmented.",
     body:
       "For wealth and fund operators, the hard problems are custody, governance, reporting, counterparty risk, regulatory posture, and integration with existing investment processes. Elemental focuses on decisions that reduce ambiguity and make participation durable.",
   },
@@ -48,6 +73,6 @@ export const home = {
   cta: {
     title: "In Switzerland in January.",
     body:
-      "If you’re working on custody, fund structure, wealth infrastructure, or institutional adoption, I’m happy to compare notes and map the terrain. Short meetings are best.",
+      "If you are working on custody, fund structure, wealth infrastructure, or institutional adoption, I am happy to compare notes and map the terrain. Short meetings are best.",
   },
 };
