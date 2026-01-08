@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 
 const Approach = () => {
-  return (
+  return ( 
     <>
       <Helmet>
         <title>Approach — Elemental</title>
