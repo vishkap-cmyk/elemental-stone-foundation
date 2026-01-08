@@ -5,7 +5,7 @@ export const home = {
       "Elemental helps family offices, wealth managers, and funds translate digital asset innovation into durable structures across custody, governance, reporting, and market access.",
   },
 
-  whatWeDo: [
+  whatWeDo: [ 
     {
       title: "Research",
       body:
