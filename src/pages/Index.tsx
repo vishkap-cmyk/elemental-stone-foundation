@@ -5,10 +5,10 @@ import Layout from "@/components/Layout";
 import { home } from "@/content/copy";
 
 const Index = () => {
-  return ( 
+  return (
     <>
       <Helmet>
-        <title>Elemental — Digital Asset Strategy & Wealth Infrastructure</title>
+        <title>Elemental - Digital Asset Strategy and Wealth Infrastructure</title>
         <meta
           name="description"
           content="Research-led advisory and execution for family offices, wealth managers, and funds navigating digital assets. Strategy, structure, and institutional-grade market infrastructure."
