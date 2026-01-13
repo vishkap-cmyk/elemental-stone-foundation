@@ -49,6 +49,26 @@ const Index = () => {
           </div>
         </section>
 
+        {/* Track Record */}
+        <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed">
+            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+              Track Record
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+              {home.trackRecord.map((item) => (
+                <div key={item.metric}>
+                  <p className="font-serif text-2xl md:text-3xl mb-2">{item.metric}</p>
+                  <p className="text-body text-muted-foreground leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Why It Matters */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
           <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-2">

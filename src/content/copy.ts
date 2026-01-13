@@ -6,12 +6,18 @@ export type HomeWhatWeDoItem = {
   body: string;
 };
 
+export type TrackRecordItem = {
+  metric: string;
+  description: string;
+};
+
 export type HomeCopy = {
   hero: {
     headline: string;
     subhead: string;
   };
   whatWeDo: HomeWhatWeDoItem[];
+  trackRecord: TrackRecordItem[];
   whyItMatters: {
     lead: string;
     body: string;
@@ -46,6 +52,21 @@ export const home: HomeCopy = {
       title: "Build",
       body:
         "Selective execution support to turn strategy into systems, workflows, and integrations where it makes sense to productise.",
+    },
+  ],
+
+  trackRecord: [
+    {
+      metric: "$300m+ AUM",
+      description: "Advised a crypto wealth management practice towards establishment and EU growth",
+    },
+    {
+      metric: "$130m onchain",
+      description: "Brought assets onchain through growth operations, building from 0-1",
+    },
+    {
+      metric: "Policy & adoption",
+      description: "Drafted white papers on digital carbon, real world assets, and high net worth funds onchain",
     },
   ],
 
