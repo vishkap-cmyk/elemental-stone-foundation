@@ -23,7 +23,7 @@ const Approach = () => {
             </p>
 
             <h1 className="font-serif text-title mb-10 animate-fade-in-delayed">
-              Focused on outcomes, not outputs.
+              Focused on institutional outcomes, not outputs.
             </h1>
 
             <p className="text-body-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in-delayed">
