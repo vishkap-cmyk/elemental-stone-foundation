@@ -11,10 +11,13 @@ export type TrackRecordItem = {
   description: string;
 };
 
+export type HowWeEngageItem = string;
+
 export type HomeCopy = {
   hero: {
     headline: string;
     subhead: string;
+    subhead2: string;
   };
   whatWeDo: HomeWhatWeDoItem[];
   trackRecord: TrackRecordItem[];
@@ -23,7 +26,9 @@ export type HomeCopy = {
     body: string;
   };
   outcomes: string[];
+  howWeEngage: HowWeEngageItem[];
   whoWeWorkWith: string[];
+  whoWeWorkWithClarifier: string;
   cta: {
     title: string;
     body: string;
@@ -32,21 +37,23 @@ export type HomeCopy = {
 
 export const home: HomeCopy = {
   hero: {
-    headline: "Research-led advisory for digital assets and wealth infrastructure.",
+    headline: "Institutional advisory and execution for digital assets and wealth infrastructure.",
     subhead:
-      "Elemental helps family offices, wealth managers, and funds translate digital asset innovation into durable structures across custody, governance, reporting, and market access.",
+      "Elemental advises and supports family offices, wealth managers, and funds navigating digital asset exposure across custody, governance, reporting, and market access.",
+    subhead2:
+      "Work is grounded in regulatory, operational, and counterparty constraints, with a focus on decisions that hold up under institutional scrutiny.",
   },
 
   whatWeDo: [
     {
       title: "Research",
       body:
-        "Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Clear constraints, not narratives.",
+        "Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Clear institutional constraints, not narratives.",
     },
     {
       title: "Advisory",
       body:
-        "Senior-led engagements to define strategy, structure, and operating model for digital asset exposure and infrastructure partnerships.",
+        "Senior-led engagements to define strategy, structure, and operating model for institutional digital asset exposure and infrastructure partnerships.",
     },
     {
       title: "Build",
@@ -58,11 +65,11 @@ export const home: HomeCopy = {
   trackRecord: [
     {
       metric: "$300m+ AUM",
-      description: "Advised a crypto wealth management practice towards establishment and EU growth",
+      description: "Advised a crypto wealth management practice on institutional setup, custody selection, and EU expansion",
     },
     {
       metric: "$130m onchain",
-      description: "Brought assets onchain through growth operations, building from 0-1",
+      description: "Led institutional GTM and partner strategy to bring assets onchain from 0–1",
     },
     {
       metric: "Policy & adoption",
@@ -73,7 +80,7 @@ export const home: HomeCopy = {
   whyItMatters: {
     lead: "Digital assets are moving into institutional portfolios, but the operating reality remains fragmented.",
     body:
-      "For wealth and fund operators, the hard problems are custody, governance, reporting, counterparty risk, regulatory posture, and integration with existing investment processes. Elemental focuses on decisions that reduce ambiguity and make participation durable.",
+      "For wealth and fund operators, the hard problems are custody, governance, reporting, counterparty risk, regulatory posture, and integration with existing investment processes. Elemental focuses on decisions that reduce ambiguity, withstand institutional scrutiny, and make participation durable.",
   },
 
   outcomes: [
@@ -81,6 +88,12 @@ export const home: HomeCopy = {
     "Mapped jurisdictional options and decision criteria for Switzerland and the EU",
     "Partner strategy for custodians, execution venues, and infrastructure providers with clear selection logic",
     "Institutional GTM plan where relevant, built around buyers, procurement, and risk committees",
+  ],
+
+  howWeEngage: [
+    "Senior-led, retained engagements with founders and executive teams",
+    "Typical counterparts include product, legal/compliance, partnerships, and leadership",
+    "Work sits alongside custody providers, infrastructure partners, and existing advisors — not in competition with them",
   ],
 
   whoWeWorkWith: [
@@ -91,9 +104,12 @@ export const home: HomeCopy = {
     "Founders building institutional crypto products",
   ],
 
+  whoWeWorkWithClarifier:
+    "Engagements are discrete, confidential, and shaped around institutional decision processes rather than volume delivery.",
+
   cta: {
     title: "In Switzerland in January.",
     body:
-      "If you are working on custody, fund structure, wealth infrastructure, or institutional adoption, I am happy to compare notes and map the terrain. Short meetings are best.",
+      "If you are working on custody, fund structure, wealth infrastructure, or institutional adoption, I am open to discrete conversations to map constraints and decision paths. Short, focused meetings are preferred.",
   },
 };

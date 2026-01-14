@@ -26,6 +26,9 @@ const Index = () => {
             <p className="mt-10 md:mt-14 text-body-lg text-muted-foreground max-w-2xl leading-relaxed animate-fade-in-delayed">
               {home.hero.subhead}
             </p>
+            <p className="mt-6 text-body-lg text-muted-foreground max-w-2xl leading-relaxed animate-fade-in-delayed">
+              {home.hero.subhead2}
+            </p>
           </div>
         </section>
 
@@ -105,6 +108,24 @@ const Index = () => {
           </div>
         </section>
 
+        {/* How Elemental Engages */}
+        <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
+          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
+            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+              How Elemental Engages
+            </p>
+
+            <ul className="space-y-4 max-w-2xl">
+              {home.howWeEngage.map((item, i) => (
+                <li key={i} className="flex items-start gap-4">
+                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                  <span className="text-body-lg">{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
         {/* Who We Work With */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
           <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
@@ -120,6 +141,10 @@ const Index = () => {
                 </li>
               ))}
             </ul>
+
+            <p className="mt-8 text-body text-muted-foreground max-w-2xl leading-relaxed">
+              {home.whoWeWorkWithClarifier}
+            </p>
           </div>
         </section>
 
