@@ -3,6 +3,7 @@
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
 import { home } from "@/content/copy";
+import ScrollReveal from "@/components/ScrollReveal";
 
 const Index = () => {
   return (
@@ -19,145 +20,177 @@ const Index = () => {
         {/* Hero Section */}
         <section className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-20 md:pb-32">
           <div className="max-w-4xl">
-            <h1 className="font-serif text-display text-balance animate-fade-in">
-              {home.hero.headline}
-            </h1>
+            <ScrollReveal>
+              <h1 className="font-serif text-display text-balance">
+                {home.hero.headline}
+              </h1>
+            </ScrollReveal>
 
-            <p className="mt-10 md:mt-14 text-body-lg text-muted-foreground max-w-2xl leading-relaxed animate-fade-in-delayed">
-              {home.hero.subhead}
-            </p>
-            <p className="mt-6 text-body-lg text-muted-foreground max-w-2xl leading-relaxed animate-fade-in-delayed">
-              {home.hero.subhead2}
-            </p>
+            <ScrollReveal delay={0.1}>
+              <p className="mt-10 md:mt-14 text-body-lg text-muted-foreground max-w-2xl leading-relaxed">
+                {home.hero.subhead}
+              </p>
+            </ScrollReveal>
+            <ScrollReveal delay={0.15}>
+              <p className="mt-6 text-body-lg text-muted-foreground max-w-2xl leading-relaxed">
+                {home.hero.subhead2}
+              </p>
+            </ScrollReveal>
           </div>
         </section>
 
         {/* What We Do */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
-          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed">
-            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-              What We Do
-            </p>
+          <ScrollReveal>
+            <div className="border-t border-border/50 pt-16 md:pt-20">
+              <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                What We Do
+              </p>
 
-            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-              {home.whatWeDo.map((item) => (
-                <div key={item.title}>
-                  <h3 className="font-serif text-xl mb-3">{item.title}</h3>
-                  <p className="text-body text-muted-foreground leading-relaxed">
-                    {item.body}
-                  </p>
-                </div>
-              ))}
+              <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+                {home.whatWeDo.map((item, i) => (
+                  <ScrollReveal key={item.title} delay={0.1 * i}>
+                    <div>
+                      <h3 className="font-serif text-xl mb-3">{item.title}</h3>
+                      <p className="text-body text-muted-foreground leading-relaxed">
+                        {item.body}
+                      </p>
+                    </div>
+                  </ScrollReveal>
+                ))}
+              </div>
             </div>
-          </div>
+          </ScrollReveal>
         </section>
 
         {/* Track Record */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
-          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed">
-            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-              Track Record
-            </p>
+          <ScrollReveal>
+            <div className="border-t border-border/50 pt-16 md:pt-20">
+              <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                Track Record
+              </p>
 
-            <div className="grid md:grid-cols-3 gap-8 md:gap-12">
-              {home.trackRecord.map((item) => (
-                <div key={item.metric}>
-                  <p className="font-serif text-2xl md:text-3xl mb-2">{item.metric}</p>
-                  <p className="text-body text-muted-foreground leading-relaxed">
-                    {item.description}
-                  </p>
-                </div>
-              ))}
+              <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+                {home.trackRecord.map((item, i) => (
+                  <ScrollReveal key={item.metric} delay={0.1 * i}>
+                    <div>
+                      <p className="font-serif text-2xl md:text-3xl mb-2">{item.metric}</p>
+                      <p className="text-body text-muted-foreground leading-relaxed">
+                        {item.description}
+                      </p>
+                    </div>
+                  </ScrollReveal>
+                ))}
+              </div>
             </div>
-          </div>
+          </ScrollReveal>
         </section>
 
         {/* Why It Matters */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
-          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-2">
-            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-              Why It Matters
-            </p>
+          <ScrollReveal>
+            <div className="border-t border-border/50 pt-16 md:pt-20">
+              <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                Why It Matters
+              </p>
 
-            <div className="max-w-2xl">
-              <p className="text-body-lg leading-relaxed mb-6">
-                {home.whyItMatters.lead}
-              </p>
-              <p className="text-body text-muted-foreground leading-relaxed">
-                {home.whyItMatters.body}
-              </p>
+              <div className="max-w-2xl">
+                <p className="text-body-lg leading-relaxed mb-6">
+                  {home.whyItMatters.lead}
+                </p>
+                <p className="text-body text-muted-foreground leading-relaxed">
+                  {home.whyItMatters.body}
+                </p>
+              </div>
             </div>
-          </div>
+          </ScrollReveal>
         </section>
 
         {/* Selected Outcomes */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
-          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-2">
-            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-              Selected Outcomes
-            </p>
+          <ScrollReveal>
+            <div className="border-t border-border/50 pt-16 md:pt-20">
+              <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                Selected Outcomes
+              </p>
 
-            <ul className="space-y-4 max-w-2xl">
-              {home.outcomes.map((item, i) => (
-                <li key={i} className="flex items-start gap-4">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
-                  <span className="text-body-lg">{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+              <ul className="space-y-4 max-w-2xl">
+                {home.outcomes.map((item, i) => (
+                  <ScrollReveal key={i} delay={0.05 * i}>
+                    <li className="flex items-start gap-4">
+                      <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                      <span className="text-body-lg">{item}</span>
+                    </li>
+                  </ScrollReveal>
+                ))}
+              </ul>
+            </div>
+          </ScrollReveal>
         </section>
 
         {/* How Elemental Engages */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
-          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
-            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-              How Elemental Engages
-            </p>
+          <ScrollReveal>
+            <div className="border-t border-border/50 pt-16 md:pt-20">
+              <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                How Elemental Engages
+              </p>
 
-            <ul className="space-y-4 max-w-2xl">
-              {home.howWeEngage.map((item, i) => (
-                <li key={i} className="flex items-start gap-4">
-                  <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
-                  <span className="text-body-lg">{item}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
+              <ul className="space-y-4 max-w-2xl">
+                {home.howWeEngage.map((item, i) => (
+                  <ScrollReveal key={i} delay={0.05 * i}>
+                    <li className="flex items-start gap-4">
+                      <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" />
+                      <span className="text-body-lg">{item}</span>
+                    </li>
+                  </ScrollReveal>
+                ))}
+              </ul>
+            </div>
+          </ScrollReveal>
         </section>
 
         {/* Who We Work With */}
         <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
-          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
-            <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-              Who We Work With
-            </p>
+          <ScrollReveal>
+            <div className="border-t border-border/50 pt-16 md:pt-20">
+              <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                Who We Work With
+              </p>
 
-            <ul className="grid md:grid-cols-2 gap-x-12 gap-y-3 max-w-2xl">
-              {home.whoWeWorkWith.map((item) => (
-                <li key={item} className="flex items-center gap-3">
-                  <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
-                  <span className="text-body">{item}</span>
-                </li>
-              ))}
-            </ul>
+              <ul className="grid md:grid-cols-2 gap-x-12 gap-y-3 max-w-2xl">
+                {home.whoWeWorkWith.map((item, i) => (
+                  <ScrollReveal key={item} delay={0.03 * i}>
+                    <li className="flex items-center gap-3">
+                      <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" />
+                      <span className="text-body">{item}</span>
+                    </li>
+                  </ScrollReveal>
+                ))}
+              </ul>
 
-            <p className="mt-8 text-body text-muted-foreground max-w-2xl leading-relaxed">
-              {home.whoWeWorkWithClarifier}
-            </p>
-          </div>
+              <ScrollReveal delay={0.2}>
+                <p className="mt-8 text-body text-muted-foreground max-w-2xl leading-relaxed">
+                  {home.whoWeWorkWithClarifier}
+                </p>
+              </ScrollReveal>
+            </div>
+          </ScrollReveal>
         </section>
 
         {/* CTA */}
         <section className="container mx-auto px-6 md:px-12 pb-section">
-          <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
-            <div className="max-w-xl">
-              <p className="font-serif text-title mb-6">{home.cta.title}</p>
-              <p className="text-body text-muted-foreground leading-relaxed">
-                {home.cta.body}
-              </p>
+          <ScrollReveal>
+            <div className="border-t border-border/50 pt-16 md:pt-20">
+              <div className="max-w-xl">
+                <p className="font-serif text-title mb-6">{home.cta.title}</p>
+                <p className="text-body text-muted-foreground leading-relaxed">
+                  {home.cta.body}
+                </p>
+              </div>
             </div>
-          </div>
+          </ScrollReveal>
         </section>
       </Layout>
     </>
