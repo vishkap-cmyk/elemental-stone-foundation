@@ -64,8 +64,8 @@ export const home: HomeCopy = {
 
   trackRecord: [
     {
-      metric: "$300m+ AUM",
-      description: "Advised a crypto wealth management practice on institutional setup, custody selection, and EU expansion",
+      metric: "$1bn market cap",
+      description: "Launched an RWA platform including securing partnerships and defining GTM strategy",
     },
     {
       metric: "$130m onchain",
