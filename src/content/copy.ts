@@ -64,16 +64,16 @@ export const home: HomeCopy = {
 
   trackRecord: [
     {
-      metric: "$1bn market cap",
-      description: "Launched an RWA platform including securing partnerships and defining GTM strategy",
+      metric: "Institutional scale",
+      description: "Led institutional go-to-market and partner strategy supporting the onboarding and management of over $130m in digital assets within regulated and compliance-aware structures.",
     },
     {
-      metric: "$130m onchain",
-      description: "Led institutional GTM and partner strategy to bring assets onchain from 0–1",
+      metric: "Market formation",
+      description: "Helped shape and launch early real-world asset platforms, including defining partner strategy, institutional positioning, and go-to-market execution from zero to first scale.",
     },
     {
-      metric: "Policy & adoption",
-      description: "Drafted white papers on digital carbon, real world assets, and high net worth funds onchain",
+      metric: "Policy and adoption",
+      description: "Contributed to applied research and policy work on digital carbon, real-world assets, and institutional adoption of onchain structures, informing how funds, advisors, and platforms engage with emerging infrastructure.",
     },
   ],
 
