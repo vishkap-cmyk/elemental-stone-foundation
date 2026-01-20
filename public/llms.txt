@@ -1,0 +1,45 @@
+# Elemental — Institutional GTM & Commercial Strategy Advisory
+
+## Summary
+Elemental is an institutional GTM and commercial strategy advisory for digital asset, fintech, and wealth infrastructure companies. We advise family offices, wealth managers, and funds on custody, governance, reporting, and market access.
+
+## Primary Topics
+- Go-to-market strategy for institutional digital assets
+- Commercial architecture and partnership development
+- Custody and governance infrastructure
+- Wealth management and family office advisory
+- Real-world assets (RWA) and tokenization
+- Regulatory compliance and jurisdictional mapping
+- Institutional adoption of onchain structures
+
+## Services
+1. **Research**: Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Clear institutional constraints, not narratives.
+2. **Advisory**: Senior-led engagements to define strategy, structure, and operating model for institutional digital asset exposure and infrastructure partnerships.
+3. **Build**: Selective execution support to turn strategy into systems, workflows, and integrations where it makes sense to productise.
+
+## Track Record
+- **Institutional scale**: Led institutional go-to-market and partner strategy supporting the onboarding and management of over $130m in digital assets within regulated and compliance-aware structures.
+- **Market formation**: Helped shape and launch early real-world asset platforms, including defining partner strategy, institutional positioning, and go-to-market execution from zero to first scale.
+- **Policy and adoption**: Contributed to applied research and policy work on digital carbon, real-world assets, and institutional adoption of onchain structures.
+
+## Target Clients
+- Family offices and UHNW principals
+- Wealth managers and private banks
+- Digital asset funds and allocators
+- Custody, trading, and reporting infrastructure providers
+- Founders building institutional crypto products
+
+## Geographic Focus
+- Switzerland
+- European Union
+- Global institutional markets
+
+## Key Pages
+- https://elemental.so (Homepage)
+- https://elemental.so/approach (Methodology)
+
+## Contact
+Engagements are discrete, confidential, and shaped around institutional decision processes rather than volume delivery. Short, focused meetings are preferred.
+
+## About This File
+This file (llms.txt) provides machine-readable information about Elemental for large language models and AI systems. For human visitors, please visit https://elemental.so.
