@@ -1,4 +1,4 @@
-// src/pages/approach.tsx
+// src/pages/Approach.tsx
 
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
@@ -7,7 +7,7 @@ const Approach = () => {
   return (
     <>
       <Helmet>
-        <title>Approach - Elemental</title>
+        <title>Approach — Elemental</title>
         <meta
           name="description"
           content="Research-led, senior advisory focused on institutional outcomes. Strategy, structure, and operating readiness for digital assets."
@@ -15,11 +15,11 @@ const Approach = () => {
       </Helmet>
 
       <Layout>
-        {/* Our Approach */}
+        {/* Approach */}
         <section className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-20 md:pb-32">
           <div className="max-w-2xl">
             <p className="text-caption uppercase tracking-widest text-muted-foreground mb-6 animate-fade-in">
-              Our Approach
+              Approach
             </p>
 
             <h1 className="font-serif text-title mb-10 animate-fade-in-delayed">
@@ -27,13 +27,13 @@ const Approach = () => {
             </h1>
 
             <p className="text-body-lg text-muted-foreground leading-relaxed mb-10 animate-fade-in-delayed">
-              Elemental works with a small number of organisations at a time. Engagements are retained,
-              senior-led, and measured by institutional outcomes, not activity or tactical output.
+              I work with a small number of organisations at a time. Engagements are retained,
+              senior-led, and measured by institutional outcomes — not activity or tactical output.
             </p>
 
             <div className="animate-fade-in-delayed-2">
               <p className="text-caption uppercase tracking-widest text-muted-foreground mb-6">
-                We specialise in
+                I specialise in
               </p>
 
               <ul className="space-y-4">
@@ -69,12 +69,12 @@ const Approach = () => {
           </div>
         </section>
 
-        {/* How We Work */}
+        {/* How I Work */}
         <section className="container mx-auto px-6 md:px-12 pb-section">
           <div className="border-t border-border/50 pt-16 md:pt-20 animate-fade-in-delayed-3">
             <div className="max-w-2xl">
               <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-                How We Work
+                How I Work
               </p>
 
               <ul className="space-y-4">
