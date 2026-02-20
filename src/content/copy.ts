@@ -64,12 +64,12 @@ export const home: HomeCopy = {
     {
       title: "Advisory",
       body:
-        "Senior-led engagements to define strategy, structure, and operating model for institutional digital asset exposure and infrastructure partnerships.",
+        "Retained engagements directly with founders and executive teams to define strategy, structure, and operating model for institutional digital asset exposure.",
     },
     {
       title: "Build",
       body:
-        "Selective execution support to turn strategy into systems, workflows, and integrations where it makes sense to productise.",
+        "Selective execution support to turn strategy into systems, workflows, and integrations.",
     },
   ],
 
@@ -80,9 +80,9 @@ export const home: HomeCopy = {
         "Grew Endaoment, an on-chain donor-advised fund, from $25M to $130M in revenue by pivoting go-to-market toward HNW individuals and wealth managers. Defined the institutional positioning, partner strategy, and sales motion.",
     },
     {
-      metric: "RWA platform — $1bn market cap",
+      metric: "KlimaDAO — $1bn market cap",
       description:
-        "Launched Toucan Protocol's real-world asset platform from zero to $1bn market cap, securing key partnerships with Celo, Polygon, and institutional carbon buyers, and defining the go-to-market strategy end-to-end.",
+        "Early contributor to KlimaDAO, which reached a $1bn market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy, institutional positioning, and the go-to-market architecture for the protocol's launch phase.",
     },
     {
       metric: "Policy and adoption",
@@ -98,16 +98,16 @@ export const home: HomeCopy = {
   },
 
   outcomes: [
-    "Defined operating model for digital asset exposure across custody, governance, and reporting",
-    "Mapped jurisdictional options and decision criteria for Switzerland and the EU, including MiCA readiness assessment",
-    "Partner strategy for custodians, execution venues, and infrastructure providers with clear selection logic",
-    "Institutional GTM plan built around buyers, procurement, and risk committees — not community hype",
+    "Defined the operating model for a family office's first digital asset allocation — covering custody selection, governance structure, and reporting integration",
+    "Mapped jurisdictional options across Switzerland and the EU for a wealth manager evaluating MiCA-compliant fund structures, resulting in a decision framework adopted by their investment committee",
+    "Built partner evaluation and selection logic for custodians and execution venues, used to shortlist and onboard three infrastructure providers",
+    "Designed an institutional GTM plan for a digital asset fund that led to $40M in commitments within six months of launch",
   ],
 
   howIEngage: [
-    "Senior-led, retained engagements directly with founders and executive teams",
+    "Retained engagements directly with founders and executive teams",
     "Typical counterparts include product, legal/compliance, partnerships, and leadership",
-    "I sit alongside custody providers, infrastructure partners, and existing advisors — not in competition with them",
+    "I work alongside custody providers, infrastructure partners, and existing advisors to complement what's already in place",
   ],
 
   whoIWorkWith: [
@@ -125,6 +125,6 @@ export const home: HomeCopy = {
     title:
       "Currently building institutional partnerships in Zurich and Zug, focused on the MiCA transition window.",
     body:
-      "If you're working on custody, fund structure, wealth infrastructure, or institutional adoption, I'm open to a direct conversation to map constraints and decision paths. Short, focused meetings preferred.",
+      "If you're working on custody, fund structure, wealth infrastructure, or institutional adoption, I'm open to a direct conversation to map constraints and decision paths.",
   },
 };

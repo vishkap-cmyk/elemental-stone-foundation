@@ -1,7 +1,7 @@
 # Elemental — Institutional Advisory for Digital Assets & Wealth Infrastructure
 
 ## Summary
-Elemental is the practice of Vishal Karir. I advise family offices, wealth managers, and funds on the operational reality of digital asset exposure — custody architecture, governance, reporting, counterparty risk, and regulatory posture across Switzerland and the EU.
+Elemental is the practice of Vishal Kapadia. I advise family offices, wealth managers, and funds on the operational reality of digital asset exposure — custody architecture, governance, reporting, counterparty risk, and regulatory posture across Switzerland and the EU.
 
 ## Primary Topics
 - Institutional digital asset advisory
@@ -14,12 +14,12 @@ Elemental is the practice of Vishal Karir. I advise family offices, wealth manag
 
 ## Services
 1. **Research**: Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Institutional constraints, not narratives.
-2. **Advisory**: Senior-led engagements to define strategy, structure, and operating model for institutional digital asset exposure and infrastructure partnerships.
-3. **Build**: Selective execution support to turn strategy into systems, workflows, and integrations where it makes sense to productise.
+2. **Advisory**: Retained engagements to define strategy, structure, and operating model for institutional digital asset exposure.
+3. **Build**: Selective execution support to turn strategy into systems, workflows, and integrations.
 
 ## Track Record
 - **Endaoment — $25M to $130M**: Grew Endaoment, an on-chain donor-advised fund, from $25M to $130M in revenue by pivoting go-to-market toward HNW individuals and wealth managers.
-- **Toucan Protocol — $1bn market cap**: Launched Toucan Protocol's RWA platform from zero to $1bn market cap, securing partnerships with Celo, Polygon, and institutional carbon buyers.
+- **KlimaDAO — $1bn market cap**: Early contributor to KlimaDAO, which reached a $1bn market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy, institutional positioning, and go-to-market architecture.
 - **Policy and adoption**: Contributed to applied research with the World Bank and Gold Standard on digital carbon markets, real-world assets, and institutional adoption of on-chain structures.
 
 ## Target Clients
