@@ -1,4 +1,4 @@
-// src/pages/index.tsx
+// src/pages/Index.tsx
 
 import { Helmet } from "react-helmet-async";
 import Layout from "@/components/Layout";
@@ -9,17 +9,17 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Elemental — Institutional GTM & Commercial Strategy for Digital Assets</title>
+        <title>Elemental — Institutional Advisory for Digital Assets & Wealth Infrastructure</title>
         <meta
           name="description"
-          content="Elemental is an institutional GTM and commercial strategy advisory for digital asset and wealth infrastructure companies. We advise family offices, wealth managers, and funds on custody, governance, reporting, and market access."
+          content="I advise family offices, wealth managers, and funds on the operational reality of digital asset exposure — custody, governance, reporting, and market access across Switzerland and the EU."
         />
       </Helmet>
 
       <Layout>
         <article itemScope itemType="https://schema.org/WebPage">
-          {/* Hero Section */}
-          <header className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-20 md:pb-32">
+          {/* Hero */}
+          <header className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-12 md:pb-16">
             <div className="max-w-4xl">
               <ScrollReveal>
                 <h1 className="font-serif text-display text-balance" itemProp="headline">
@@ -40,16 +40,56 @@ const Index = () => {
             </div>
           </header>
 
-          {/* What We Do */}
+          {/* CTA Banner */}
+          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
+            <ScrollReveal delay={0.2}>
+              <div className="border-t border-border/50 pt-10">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 max-w-3xl">
+                  <p className="text-body-lg">
+                    {home.cta_banner.line}
+                  </p>
+                  <a
+                    href={home.cta_banner.linkHref}
+                    className="inline-flex items-center gap-2 text-body font-medium border-b border-foreground pb-0.5 transition-opacity hover:opacity-60 whitespace-nowrap flex-shrink-0"
+                  >
+                    {home.cta_banner.linkText}
+                    <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </div>
+            </ScrollReveal>
+          </section>
+
+          {/* Why It Matters — surfaced prominently */}
+          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="why-heading">
+            <ScrollReveal>
+              <div className="border-t border-border/50 pt-16 md:pt-20">
+                <h2 id="why-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                  Why It Matters
+                </h2>
+
+                <div className="max-w-3xl">
+                  <p className="font-serif text-2xl md:text-3xl leading-snug mb-8 text-balance">
+                    {home.whyItMatters.lead}
+                  </p>
+                  <p className="text-body-lg text-muted-foreground leading-relaxed">
+                    {home.whyItMatters.body}
+                  </p>
+                </div>
+              </div>
+            </ScrollReveal>
+          </section>
+
+          {/* What I Do */}
           <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="services-heading">
             <ScrollReveal>
               <div className="border-t border-border/50 pt-16 md:pt-20">
                 <h2 id="services-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-                  What We Do
+                  What I Do
                 </h2>
 
                 <div className="grid md:grid-cols-3 gap-8 md:gap-12" role="list">
-                  {home.whatWeDo.map((item, i) => (
+                  {home.whatIDo.map((item, i) => (
                     <ScrollReveal key={item.title} delay={0.1 * i}>
                       <article role="listitem">
                         <h3 className="font-serif text-xl mb-3">{item.title}</h3>
@@ -88,26 +128,6 @@ const Index = () => {
             </ScrollReveal>
           </section>
 
-          {/* Why It Matters */}
-          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="why-heading">
-            <ScrollReveal>
-              <div className="border-t border-border/50 pt-16 md:pt-20">
-                <h2 id="why-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-                  Why It Matters
-                </h2>
-
-                <div className="max-w-2xl">
-                  <p className="text-body-lg leading-relaxed mb-6">
-                    {home.whyItMatters.lead}
-                  </p>
-                  <p className="text-body text-muted-foreground leading-relaxed">
-                    {home.whyItMatters.body}
-                  </p>
-                </div>
-              </div>
-            </ScrollReveal>
-          </section>
-
           {/* Selected Outcomes */}
           <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="outcomes-heading">
             <ScrollReveal>
@@ -130,16 +150,16 @@ const Index = () => {
             </ScrollReveal>
           </section>
 
-          {/* How Elemental Engages */}
+          {/* How I Engage */}
           <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="engagement-heading">
             <ScrollReveal>
               <div className="border-t border-border/50 pt-16 md:pt-20">
                 <h2 id="engagement-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-                  How Elemental Engages
+                  How I Engage
                 </h2>
 
                 <ul className="space-y-4 max-w-2xl">
-                  {home.howWeEngage.map((item, i) => (
+                  {home.howIEngage.map((item, i) => (
                     <ScrollReveal key={i} delay={0.05 * i}>
                       <li className="flex items-start gap-4">
                         <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" aria-hidden="true" />
@@ -152,16 +172,16 @@ const Index = () => {
             </ScrollReveal>
           </section>
 
-          {/* Who We Work With */}
+          {/* Who I Work With */}
           <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="clients-heading">
             <ScrollReveal>
               <div className="border-t border-border/50 pt-16 md:pt-20">
                 <h2 id="clients-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-                  Who We Work With
+                  Who I Work With
                 </h2>
 
                 <ul className="grid md:grid-cols-2 gap-x-12 gap-y-3 max-w-2xl">
-                  {home.whoWeWorkWith.map((item, i) => (
+                  {home.whoIWorkWith.map((item, i) => (
                     <ScrollReveal key={item} delay={0.03 * i}>
                       <li className="flex items-center gap-3">
                         <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" aria-hidden="true" />
@@ -173,7 +193,7 @@ const Index = () => {
 
                 <ScrollReveal delay={0.2}>
                   <p className="mt-8 text-body text-muted-foreground max-w-2xl leading-relaxed">
-                    {home.whoWeWorkWithClarifier}
+                    {home.whoIWorkWithClarifier}
                   </p>
                 </ScrollReveal>
               </div>

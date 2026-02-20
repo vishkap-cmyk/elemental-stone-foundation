@@ -1,26 +1,26 @@
-# Elemental — Institutional GTM & Commercial Strategy Advisory
+# Elemental — Institutional Advisory for Digital Assets & Wealth Infrastructure
 
 ## Summary
-Elemental is an institutional GTM and commercial strategy advisory for digital asset, fintech, and wealth infrastructure companies. We advise family offices, wealth managers, and funds on custody, governance, reporting, and market access.
+Elemental is the practice of Vishal Karir. I advise family offices, wealth managers, and funds on the operational reality of digital asset exposure — custody architecture, governance, reporting, counterparty risk, and regulatory posture across Switzerland and the EU.
 
 ## Primary Topics
-- Go-to-market strategy for institutional digital assets
-- Commercial architecture and partnership development
+- Institutional digital asset advisory
 - Custody and governance infrastructure
+- MiCA readiness and EU market entry
+- Go-to-market strategy for institutional buyers
 - Wealth management and family office advisory
 - Real-world assets (RWA) and tokenization
 - Regulatory compliance and jurisdictional mapping
-- Institutional adoption of onchain structures
 
 ## Services
-1. **Research**: Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Clear institutional constraints, not narratives.
+1. **Research**: Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Institutional constraints, not narratives.
 2. **Advisory**: Senior-led engagements to define strategy, structure, and operating model for institutional digital asset exposure and infrastructure partnerships.
 3. **Build**: Selective execution support to turn strategy into systems, workflows, and integrations where it makes sense to productise.
 
 ## Track Record
-- **Institutional scale**: Led institutional go-to-market and partner strategy supporting the onboarding and management of over $130m in digital assets within regulated and compliance-aware structures.
-- **Market formation**: Helped shape and launch early real-world asset platforms, including defining partner strategy, institutional positioning, and go-to-market execution from zero to first scale.
-- **Policy and adoption**: Contributed to applied research and policy work on digital carbon, real-world assets, and institutional adoption of onchain structures.
+- **Endaoment — $25M to $130M**: Grew Endaoment, an on-chain donor-advised fund, from $25M to $130M in revenue by pivoting go-to-market toward HNW individuals and wealth managers.
+- **Toucan Protocol — $1bn market cap**: Launched Toucan Protocol's RWA platform from zero to $1bn market cap, securing partnerships with Celo, Polygon, and institutional carbon buyers.
+- **Policy and adoption**: Contributed to applied research with the World Bank and Gold Standard on digital carbon markets, real-world assets, and institutional adoption of on-chain structures.
 
 ## Target Clients
 - Family offices and UHNW principals
@@ -30,8 +30,8 @@ Elemental is an institutional GTM and commercial strategy advisory for digital a
 - Founders building institutional crypto products
 
 ## Geographic Focus
-- Switzerland
-- European Union
+- Switzerland (Zurich, Zug)
+- European Union (MiCA transition)
 - Global institutional markets
 
 ## Key Pages
@@ -39,7 +39,8 @@ Elemental is an institutional GTM and commercial strategy advisory for digital a
 - https://elemental.so/approach (Methodology)
 
 ## Contact
-Engagements are discrete, confidential, and shaped around institutional decision processes rather than volume delivery. Short, focused meetings are preferred.
+vishal@elemental.so
+Engagements are discrete, confidential, and shaped around institutional decision processes.
 
 ## About This File
 This file (llms.txt) provides machine-readable information about Elemental for large language models and AI systems. For human visitors, please visit https://elemental.so.

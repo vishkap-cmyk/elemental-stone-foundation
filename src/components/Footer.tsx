@@ -7,13 +7,13 @@ const Footer = () => {
             Contact
           </p>
           <p className="font-serif text-title mb-6">
-            Private introductions only.
+            Direct introductions preferred.
           </p>
           <a 
-            href="mailto:hello@elemental.so"
+            href="mailto:vishal@elemental.so"
             className="inline-block text-body text-muted-foreground border-b border-muted-foreground/30 pb-0.5 transition-all hover:border-foreground hover:text-foreground"
           >
-            hello@elemental.so
+            vishal@elemental.so
           </a>
         </div>
         
