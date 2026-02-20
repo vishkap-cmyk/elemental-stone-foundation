@@ -3,11 +3,8 @@ const Footer = () => {
     <footer className="border-t border-border/50">
       <div className="container mx-auto px-6 md:px-12 py-16 md:py-24">
         <div className="max-w-xl">
-          <p className="text-caption uppercase tracking-widest text-muted-foreground mb-4">
-            Contact
-          </p>
           <p className="font-serif text-title mb-6">
-            Direct introductions preferred.
+            Get in touch
           </p>
           <a 
             href="mailto:vishal@elemental.so"

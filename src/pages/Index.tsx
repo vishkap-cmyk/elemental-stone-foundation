@@ -22,6 +22,16 @@ const Index = () => {
           <header className="container mx-auto px-6 md:px-12 pt-12 md:pt-24 pb-12 md:pb-16">
             <div className="max-w-4xl">
               <ScrollReveal>
+                <p className="text-body-lg mb-6">
+                  <a
+                    href="https://linkedin.com/in/vishkap"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="border-b border-foreground pb-0.5 transition-opacity hover:opacity-60"
+                  >
+                    I'm Vishal Kapadia.
+                  </a>
+                </p>
                 <h1 className="font-serif text-display text-balance" itemProp="headline">
                   {home.hero.headline}
                 </h1>
