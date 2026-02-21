@@ -82,12 +82,12 @@ export const home: HomeCopy = {
     {
       metric: "KlimaDAO — $1bn market cap",
       description:
-        "Early contributor to KlimaDAO, which reached a $1bn market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy, institutional positioning, and the go-to-market architecture for the protocol's launch phase.",
+        "Early contributor to KlimaDAO, which reached a $1bn market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy and institutional positioning during the protocol's launch phase.",
     },
     {
       metric: "Policy and adoption",
       description:
-        "Contributed to applied research with the World Bank and Gold Standard on digital carbon markets, real-world assets, and institutional adoption of on-chain structures — work that directly shaped how funds and platforms engage with emerging infrastructure.",
+        "Contributed to the formation of on-chain carbon markets as an early architect of the digital carbon category, including work that informed how institutional buyers and funds engage with tokenised environmental assets. Coined the term digital carbon.",
     },
   ],
 
@@ -101,12 +101,11 @@ export const home: HomeCopy = {
     "Defined the operating model for a family office's first digital asset allocation — covering custody selection, governance structure, and reporting integration",
     "Mapped jurisdictional options across Switzerland and the EU for a wealth manager evaluating MiCA-compliant fund structures, resulting in a decision framework adopted by their investment committee",
     "Built partner evaluation and selection logic for custodians and execution venues, used to shortlist and onboard three infrastructure providers",
-    "Designed an institutional GTM plan for a digital asset fund that led to $40M in commitments within six months of launch",
+    "Designed the institutional GTM playbook that drove Endaoment's growth from $25M to $130M, covering HNW acquisition, wealth manager partnerships, and onboarding architecture",
   ],
 
   howIEngage: [
     "Retained engagements directly with founders and executive teams",
-    "Typical counterparts include product, legal/compliance, partnerships, and leadership",
     "I work alongside custody providers, infrastructure partners, and existing advisors to complement what's already in place",
   ],
 
