@@ -1,8 +1,12 @@
 // src/content/copy.ts
 
-export type HomeWhatWeDoItem = {
+export type ServiceItem = {
   title: string;
+  duration: string;
   body: string;
+  forLine: string;
+  ctaText: string;
+  ctaHref: string;
 };
 
 export type TrackRecordItem = {
@@ -10,104 +14,133 @@ export type TrackRecordItem = {
   description: string;
 };
 
-export type HowWeEngageItem = string;
-
 export type HomeCopy = {
   hero: {
     headline: string;
     subhead: string;
-    subhead2: string;
   };
-  cta_banner: {
-    line: string;
-    linkText: string;
-    linkHref: string;
+  heroCta: {
+    text: string;
+    href: string;
   };
-  whatIDo: HomeWhatWeDoItem[];
-  trackRecord: TrackRecordItem[];
+  heroSecondary: string;
+  credibilityBar: string[];
   whyItMatters: {
     lead: string;
     body: string;
   };
+  trackRecord: TrackRecordItem[];
   outcomes: string[];
-  howIEngage: HowWeEngageItem[];
+  services: {
+    headline: string;
+    subheadline: string;
+    items: ServiceItem[];
+    note: string;
+  };
   whoIWorkWith: string[];
-  whoIWorkWithClarifier: string;
-  cta: {
-    title: string;
+  howIEngage: string[];
+  footerCta: {
+    headline: string;
     body: string;
+    ctaText: string;
+    ctaHref: string;
+    secondary: string;
   };
 };
 
 export const home: HomeCopy = {
   hero: {
     headline:
-      "You're moving digital assets into institutional portfolios. The custody, governance, and regulatory questions aren't theoretical anymore.",
+      "The institutional digital asset window is open. Most platforms will miss it.",
     subhead:
-      "I advise family offices, wealth managers, and funds on the operational reality of digital asset exposure — custody architecture, reporting, counterparty risk, and regulatory posture across Switzerland and the EU.",
-    subhead2:
-      "Every engagement is grounded in what holds up under institutional scrutiny, not what sounds good in a pitch deck.",
+      "I help digital asset platforms, family offices, and wealth managers navigate the operational reality of institutional adoption — custody, governance, MiCA compliance, and the relationships that make regulated institutions say yes.",
   },
 
-  cta_banner: {
-    line: "Currently advising on EU market entry and MiCA readiness. Open to new engagements.",
-    linkText: "Get in touch",
-    linkHref: "mailto:vishal@elemental.so",
+  heroCta: {
+    text: "Book a scoped conversation",
+    href: "mailto:vishal@elemental.so",
   },
 
-  whatIDo: [
-    {
-      title: "Research",
-      body:
-        "Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. I focus on institutional constraints, not narratives.",
-    },
-    {
-      title: "Advisory",
-      body:
-        "Retained engagements directly with founders and executive teams to define strategy, structure, and operating model for institutional digital asset exposure.",
-    },
-    {
-      title: "Build",
-      body:
-        "Selective execution support to turn strategy into systems, workflows, and integrations.",
-    },
-  ],
+  heroSecondary:
+    "Currently advising on EU market entry and MiCA readiness. 3 engagements available.",
 
-  trackRecord: [
-    {
-      metric: "Endaoment — $25M to $130M",
-      description:
-        "Grew Endaoment, an on-chain donor-advised fund, from $25M to $130M in revenue by pivoting go-to-market toward HNW individuals and wealth managers. Defined the institutional positioning, partner strategy, and sales motion.",
-    },
-    {
-      metric: "KlimaDAO — $1bn market cap",
-      description:
-        "Early contributor to KlimaDAO, which reached a $1bn market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy and institutional positioning during the protocol's launch phase.",
-    },
-    {
-      metric: "Policy and adoption",
-      description:
-        "Contributed to the formation of on-chain carbon markets as an early architect of the digital carbon category, including work that informed how institutional buyers and funds engage with tokenised environmental assets. Coined the term digital carbon.",
-    },
+  credibilityBar: [
+    "University of Oxford",
+    "ESCP Business School",
+    "BNP Paribas",
+    "EDF Energy",
+    "United Nations (advisor)",
+    "European Commission (advisor)",
+    "Endaoment",
+    "KlimaDAO",
   ],
 
   whyItMatters: {
-    lead: "Digital assets are moving into institutional portfolios, but the operating reality remains fragmented.",
-    body:
-      "For wealth and fund operators, the hard problems are custody, governance, reporting, counterparty risk, regulatory posture, and integration with existing investment processes. I focus on decisions that reduce ambiguity, withstand institutional scrutiny, and make participation durable.",
+    lead: "Digital assets are entering institutional portfolios. The operating reality hasn't caught up.",
+    body: "For wealth managers, family offices, and fund operators, the hard problems are custody architecture, governance structure, counterparty risk, MiCA compliance, and integration with existing investment processes. Most platforms are built for retail adoption. Institutional entry requires a different playbook — one built around what holds up under regulatory and fiduciary scrutiny, not what sounds good in a pitch deck. The MiCA transition window is open now. The platforms that move in the next 12 months will define the institutional digital asset landscape for the next decade. The ones that wait will be locked out.",
   },
 
+  trackRecord: [
+    {
+      metric: "Endaoment — $25M to $130M AUM",
+      description:
+        "Grew Endaoment from $25M to $130M in assets under management by pivoting go-to-market toward HNW individuals and wealth managers. Defined the institutional positioning, partner strategy, and sales motion that unlocked the $250B donor-advised fund industry for on-chain infrastructure.",
+    },
+    {
+      metric: "KlimaDAO — $1B market cap at launch",
+      description:
+        "Early contributor to KlimaDAO, which reached a $1B market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy and institutional positioning during the protocol's launch phase. Coined the term 'digital carbon', now standard industry language.",
+    },
+    {
+      metric: "Policy and institutional adoption",
+      description:
+        "Advisor to the United Nations and European Commission on digital asset policy and adoption frameworks. Contributed to the formation of on-chain carbon markets and informed how institutional buyers and funds engage with tokenised environmental assets.",
+    },
+  ],
+
   outcomes: [
-    "Defined the operating model for a family office's first digital asset allocation — covering custody selection, governance structure, and reporting integration",
+    "Defined the operating model for a family office's first digital asset allocation — custody selection, governance structure, and reporting integration",
     "Mapped jurisdictional options across Switzerland and the EU for a wealth manager evaluating MiCA-compliant fund structures, resulting in a decision framework adopted by their investment committee",
     "Built partner evaluation and selection logic for custodians and execution venues, used to shortlist and onboard three infrastructure providers",
     "Designed the institutional GTM playbook that drove Endaoment's growth from $25M to $130M, covering HNW acquisition, wealth manager partnerships, and onboarding architecture",
+    "More client outcomes coming soon",
   ],
 
-  howIEngage: [
-    "Retained engagements directly with founders and executive teams",
-    "I work alongside custody providers, infrastructure partners, and existing advisors to complement what's already in place",
-  ],
+  services: {
+    headline: "How I Can Help",
+    subheadline:
+      "Three scoped engagements. Fixed outcomes. Senior-led.",
+    items: [
+      {
+        title: "MiCA Readiness Diagnostic",
+        duration: "2 weeks",
+        body: "A structured gap analysis of your current structure against MiCA requirements. You receive a prioritised risk map and a decision framework your compliance team can act on immediately.",
+        forLine:
+          "For: Digital asset platforms, funds, and wealth managers preparing for EU market entry in 2025–26.",
+        ctaText: "Enquire",
+        ctaHref: "mailto:vishal@elemental.so",
+      },
+      {
+        title: "Swiss Market Entry Roadmap",
+        duration: "4 weeks",
+        body: "Jurisdiction mapping across Switzerland and the EU, custody provider shortlist, regulatory posture assessment, and a structured decision framework for your investment committee.",
+        forLine:
+          "For: Funds and platforms anchoring in Zurich or Zug, or evaluating Switzerland as a primary jurisdiction.",
+        ctaText: "Enquire",
+        ctaHref: "mailto:vishal@elemental.so",
+      },
+      {
+        title: "Institutional GTM Sprint",
+        duration: "8 weeks, retained",
+        body: "First three target institutional clients identified. Pitch materials built for compliance and fiduciary scrutiny. Outreach strategy and partner engagement structured for commercial sustainability.",
+        forLine:
+          "For: Series A+ digital asset platforms ready to sell to family offices, private banks, or wealth managers.",
+        ctaText: "Enquire",
+        ctaHref: "mailto:vishal@elemental.so",
+      },
+    ],
+    note: "All engagements are retained, senior-led, and measured by institutional outcomes. I work with 3–4 organisations at a time.",
+  },
 
   whoIWorkWith: [
     "Family offices and UHNW principals",
@@ -117,13 +150,19 @@ export const home: HomeCopy = {
     "Founders building institutional crypto products",
   ],
 
-  whoIWorkWithClarifier:
-    "Engagements are discrete, confidential, and shaped around institutional decision processes — not volume delivery.",
+  howIEngage: [
+    "Retained engagements directly with founders and executive teams",
+    "I work alongside custody providers, infrastructure partners, and existing advisors to complement what's already in place",
+    "Engagements are discrete, confidential, and shaped around institutional decision processes — not volume delivery",
+    "Client testimonials and references available on request",
+  ],
 
-  cta: {
-    title:
-      "Currently building institutional partnerships in Zurich and Zug, focused on the MiCA transition window.",
-    body:
-      "If you're working on custody, fund structure, wealth infrastructure, or institutional adoption, I'm open to a direct conversation to map constraints and decision paths.",
+  footerCta: {
+    headline:
+      "If you're preparing for institutional market entry in Europe in the next 6 months, let's talk.",
+    body: "I'm available for a scoped conversation to map constraints and decision paths. No pitch. No deck. Just a direct conversation about what you're building and whether I can help.",
+    ctaText: "Book a scoped conversation",
+    ctaHref: "mailto:vishal@elemental.so",
+    secondary: "vishal@elemental.so · Currently available for 3 new engagements.",
   },
 };
