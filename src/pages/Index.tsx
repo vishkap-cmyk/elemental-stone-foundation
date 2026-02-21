@@ -12,7 +12,7 @@ const Index = () => {
         <title>Elemental — Institutional Advisory for Digital Assets & Wealth Infrastructure</title>
         <meta
           name="description"
-          content="I advise family offices, wealth managers, and funds on the operational reality of digital asset exposure — custody, governance, reporting, and market access across Switzerland and the EU."
+          content="I help digital asset platforms, family offices, and wealth managers navigate the operational reality of institutional adoption — custody, governance, MiCA compliance, and the relationships that make regulated institutions say yes."
         />
       </Helmet>
 
@@ -42,35 +42,43 @@ const Index = () => {
                   {home.hero.subhead}
                 </p>
               </ScrollReveal>
+
               <ScrollReveal delay={0.15}>
-                <p className="mt-6 text-body-lg text-muted-foreground max-w-2xl leading-relaxed">
-                  {home.hero.subhead2}
-                </p>
+                <div className="mt-8 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
+                  <a
+                    href={home.heroCta.href}
+                    className="inline-flex items-center gap-2 text-body font-medium border-b border-foreground pb-0.5 transition-opacity hover:opacity-60"
+                  >
+                    {home.heroCta.text}
+                    <span aria-hidden="true">→</span>
+                  </a>
+                  <span className="text-body text-muted-foreground">
+                    {home.heroSecondary}
+                  </span>
+                </div>
               </ScrollReveal>
             </div>
           </header>
 
-          {/* CTA Banner */}
+          {/* Credibility Bar */}
           <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
             <ScrollReveal delay={0.2}>
               <div className="border-t border-border/50 pt-10">
-                <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 max-w-3xl">
-                  <p className="text-body-lg">
-                    {home.cta_banner.line}
-                  </p>
-                  <a
-                    href={home.cta_banner.linkHref}
-                    className="inline-flex items-center gap-2 text-body font-medium border-b border-foreground pb-0.5 transition-opacity hover:opacity-60 whitespace-nowrap flex-shrink-0"
-                  >
-                    {home.cta_banner.linkText}
-                    <span aria-hidden="true">→</span>
-                  </a>
+                <p className="text-caption uppercase tracking-widest text-muted-foreground mb-6">
+                  Institutional Anchors
+                </p>
+                <div className="flex flex-wrap gap-x-8 gap-y-3">
+                  {home.credibilityBar.map((name) => (
+                    <span key={name} className="text-body text-muted-foreground">
+                      {name}
+                    </span>
+                  ))}
                 </div>
               </div>
             </ScrollReveal>
           </section>
 
-          {/* Why It Matters — surfaced prominently */}
+          {/* Why It Matters */}
           <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="why-heading">
             <ScrollReveal>
               <div className="border-t border-border/50 pt-16 md:pt-20">
@@ -85,30 +93,6 @@ const Index = () => {
                   <p className="text-body-lg text-muted-foreground leading-relaxed">
                     {home.whyItMatters.body}
                   </p>
-                </div>
-              </div>
-            </ScrollReveal>
-          </section>
-
-          {/* What I Do */}
-          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="services-heading">
-            <ScrollReveal>
-              <div className="border-t border-border/50 pt-16 md:pt-20">
-                <h2 id="services-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-                  What I Do
-                </h2>
-
-                <div className="grid md:grid-cols-3 gap-8 md:gap-12" role="list">
-                  {home.whatIDo.map((item, i) => (
-                    <ScrollReveal key={item.title} delay={0.1 * i}>
-                      <article role="listitem">
-                        <h3 className="font-serif text-xl mb-3">{item.title}</h3>
-                        <p className="text-body text-muted-foreground leading-relaxed">
-                          {item.body}
-                        </p>
-                      </article>
-                    </ScrollReveal>
-                  ))}
                 </div>
               </div>
             </ScrollReveal>
@@ -139,7 +123,7 @@ const Index = () => {
           </section>
 
           {/* Selected Outcomes */}
-          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="outcomes-heading">
+          <section id="results" className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="outcomes-heading">
             <ScrollReveal>
               <div className="border-t border-border/50 pt-16 md:pt-20">
                 <h2 id="outcomes-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
@@ -152,6 +136,76 @@ const Index = () => {
                       <li className="flex items-start gap-4">
                         <span className="w-1.5 h-1.5 rounded-full bg-foreground/30 mt-2.5 flex-shrink-0" aria-hidden="true" />
                         <span className="text-body-lg">{item}</span>
+                      </li>
+                    </ScrollReveal>
+                  ))}
+                </ul>
+              </div>
+            </ScrollReveal>
+          </section>
+
+          {/* Services */}
+          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="services-heading">
+            <ScrollReveal>
+              <div className="border-t border-border/50 pt-16 md:pt-20">
+                <h2 id="services-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-4">
+                  {home.services.headline}
+                </h2>
+                <p className="text-body-lg text-muted-foreground mb-12">
+                  {home.services.subheadline}
+                </p>
+
+                <div className="grid md:grid-cols-3 gap-8 md:gap-12">
+                  {home.services.items.map((service, i) => (
+                    <ScrollReveal key={service.title} delay={0.1 * i}>
+                      <article className="space-y-4">
+                        <div>
+                          <h3 className="font-serif text-xl mb-1">{service.title}</h3>
+                          <p className="text-caption uppercase tracking-widest text-muted-foreground">
+                            {service.duration}
+                          </p>
+                        </div>
+                        <p className="text-body text-muted-foreground leading-relaxed">
+                          {service.body}
+                        </p>
+                        <p className="text-body text-muted-foreground/70 italic">
+                          {service.forLine}
+                        </p>
+                        <a
+                          href={service.ctaHref}
+                          className="inline-flex items-center gap-2 text-body font-medium border-b border-foreground pb-0.5 transition-opacity hover:opacity-60"
+                        >
+                          {service.ctaText}
+                          <span aria-hidden="true">→</span>
+                        </a>
+                      </article>
+                    </ScrollReveal>
+                  ))}
+                </div>
+
+                <ScrollReveal delay={0.3}>
+                  <p className="mt-12 text-body text-muted-foreground max-w-2xl">
+                    {home.services.note}
+                  </p>
+                </ScrollReveal>
+              </div>
+            </ScrollReveal>
+          </section>
+
+          {/* Who I Work With */}
+          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="clients-heading">
+            <ScrollReveal>
+              <div className="border-t border-border/50 pt-16 md:pt-20">
+                <h2 id="clients-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
+                  Who I Work With
+                </h2>
+
+                <ul className="grid md:grid-cols-2 gap-x-12 gap-y-3 max-w-2xl">
+                  {home.whoIWorkWith.map((item, i) => (
+                    <ScrollReveal key={item} delay={0.03 * i}>
+                      <li className="flex items-center gap-3">
+                        <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" aria-hidden="true" />
+                        <span className="text-body">{item}</span>
                       </li>
                     </ScrollReveal>
                   ))}
@@ -182,42 +236,26 @@ const Index = () => {
             </ScrollReveal>
           </section>
 
-          {/* Who I Work With */}
-          <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32" aria-labelledby="clients-heading">
-            <ScrollReveal>
-              <div className="border-t border-border/50 pt-16 md:pt-20">
-                <h2 id="clients-heading" className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
-                  Who I Work With
-                </h2>
-
-                <ul className="grid md:grid-cols-2 gap-x-12 gap-y-3 max-w-2xl">
-                  {home.whoIWorkWith.map((item, i) => (
-                    <ScrollReveal key={item} delay={0.03 * i}>
-                      <li className="flex items-center gap-3">
-                        <span className="w-1 h-1 rounded-full bg-foreground/30 flex-shrink-0" aria-hidden="true" />
-                        <span className="text-body">{item}</span>
-                      </li>
-                    </ScrollReveal>
-                  ))}
-                </ul>
-
-                <ScrollReveal delay={0.2}>
-                  <p className="mt-8 text-body text-muted-foreground max-w-2xl leading-relaxed">
-                    {home.whoIWorkWithClarifier}
-                  </p>
-                </ScrollReveal>
-              </div>
-            </ScrollReveal>
-          </section>
-
-          {/* CTA */}
+          {/* Footer CTA */}
           <section className="container mx-auto px-6 md:px-12 pb-section" aria-labelledby="cta-heading">
             <ScrollReveal>
               <div className="border-t border-border/50 pt-16 md:pt-20">
                 <div className="max-w-xl">
-                  <h2 id="cta-heading" className="font-serif text-title mb-6">{home.cta.title}</h2>
-                  <p className="text-body text-muted-foreground leading-relaxed">
-                    {home.cta.body}
+                  <h2 id="cta-heading" className="font-serif text-title mb-6">
+                    {home.footerCta.headline}
+                  </h2>
+                  <p className="text-body text-muted-foreground leading-relaxed mb-8">
+                    {home.footerCta.body}
+                  </p>
+                  <a
+                    href={home.footerCta.ctaHref}
+                    className="inline-flex items-center gap-2 text-body font-medium border-b border-foreground pb-0.5 transition-opacity hover:opacity-60"
+                  >
+                    {home.footerCta.ctaText}
+                    <span aria-hidden="true">→</span>
+                  </a>
+                  <p className="mt-6 text-body text-muted-foreground">
+                    {home.footerCta.secondary}
                   </p>
                 </div>
               </div>

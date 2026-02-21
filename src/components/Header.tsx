@@ -22,6 +22,20 @@ const Header = () => {
           >
             Approach
           </Link>
+          <Link
+            to="/#results"
+            className="text-caption uppercase tracking-widest transition-opacity hover:opacity-60 opacity-70"
+          >
+            Results
+          </Link>
+          <Link
+            to="/resources"
+            className={`text-caption uppercase tracking-widest transition-opacity hover:opacity-60 ${
+              location.pathname === "/resources" ? "opacity-100" : "opacity-70"
+            }`}
+          >
+            Resources
+          </Link>
         </div>
       </nav>
     </header>
