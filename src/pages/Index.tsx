@@ -64,13 +64,18 @@ const Index = () => {
           <section className="container mx-auto px-6 md:px-12 pb-20 md:pb-32">
             <ScrollReveal delay={0.2}>
               <div className="border-t border-border/50 pt-10">
-                <p className="text-caption uppercase tracking-widest text-muted-foreground mb-6">
+                <p className="text-caption uppercase tracking-widest text-muted-foreground mb-8">
                   Institutional Anchors
                 </p>
-                <div className="flex flex-wrap gap-x-8 gap-y-3">
-                  {home.credibilityBar.map((name) => (
-                    <span key={name} className="text-body text-muted-foreground">
-                      {name}
+                <div className="flex flex-wrap items-center gap-y-4 gap-x-3 md:gap-x-4">
+                  {home.credibilityBar.map((name, i) => (
+                    <span key={name} className="flex items-center gap-3 md:gap-4">
+                      <span className="font-serif text-base md:text-lg tracking-tight text-foreground/70">
+                        {name}
+                      </span>
+                      {i < home.credibilityBar.length - 1 && (
+                        <span className="text-border text-xs" aria-hidden="true">·</span>
+                      )}
                     </span>
                   ))}
                 </div>
