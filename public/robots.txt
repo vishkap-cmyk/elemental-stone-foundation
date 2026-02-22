@@ -49,3 +49,4 @@ Sitemap: https://elemental.so/sitemap.xml
 
 # LLM-readable summary
 # See /llms.txt for machine-readable company information
+# See /llms-full.txt for extended context for AI systems

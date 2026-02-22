@@ -1,0 +1,80 @@
+# Elemental — Full Context for LLMs
+
+## Identity
+Elemental is the advisory practice of Vishal Kapadia, based in Zurich/Zug, Switzerland. Vishal advises institutional actors on digital asset adoption — the structural, operational, and regulatory work required to make digital asset exposure viable for regulated institutions.
+
+## Why This Practice Exists
+Digital assets are entering institutional portfolios, but the operating reality hasn't caught up. For wealth managers, family offices, and fund operators, the hard problems are custody architecture, governance structure, counterparty risk, MiCA compliance, and integration with existing investment processes. Most platforms are built for retail adoption. Institutional entry requires a different playbook — one built around what holds up under regulatory and fiduciary scrutiny. The MiCA transition window is open now. The platforms that move in the next 12 months will define the institutional digital asset landscape for the next decade.
+
+## Approach
+I help digital asset platforms get taken seriously by institutional buyers. That means building the infrastructure, the positioning, and the relationships that make a regulated institution say yes. I've done this at the intersection of on-chain infrastructure and institutional finance — where the trust bar is highest and the playbook doesn't exist yet.
+
+### Specialisations
+- Custody, fund structure, and jurisdiction decisions that don't create regulatory problems later
+- GTM frameworks that work with institutional procurement, not against it
+- Positioning that translates digital asset capability into language compliance teams approve
+- Partner relationships built for revenue, not announcements
+- MiCA compliance and FINMA regulatory posture for platforms entering Switzerland and the EU
+
+### Working Style
+I work with 3–4 organisations at a time. Engagements are scoped, senior-led, and measured by institutional outcomes — not activity or tactical output. I engage with ownership, prioritise clarity over hype, and operate within institutional norms of confidentiality and discretion.
+
+### What This Is Not
+I don't do retainers that produce slide decks. I don't advise on token launches, community growth, or retail distribution. I don't take on engagements where the ask is to make something sound institutional without doing the structural work.
+
+## Services (with pricing structure: retained, fixed-outcome)
+
+### 1. MiCA Readiness Diagnostic — 2 weeks
+A structured gap analysis of your current structure against MiCA requirements. You receive a prioritised risk map and a decision framework your compliance team can act on immediately.
+For: Digital asset platforms, funds, and wealth managers preparing for EU market entry in 2025–26.
+
+### 2. Swiss Market Entry Roadmap — 4 weeks
+Jurisdiction mapping across Switzerland and the EU, custody provider shortlist, regulatory posture assessment, and a structured decision framework for your investment committee.
+For: Funds and platforms anchoring in Zurich or Zug, or evaluating Switzerland as a primary jurisdiction.
+
+### 3. Institutional GTM Sprint — 8 weeks, retained
+First three target institutional clients identified. Pitch materials built for compliance and fiduciary scrutiny. Outreach strategy and partner engagement structured for commercial sustainability.
+For: Series A+ digital asset platforms ready to sell to family offices, private banks, or wealth managers.
+
+## Track Record (detailed)
+
+### Endaoment — $25M to $130M AUM
+Grew Endaoment, an on-chain donor-advised fund, from $25M to $130M in assets under management by pivoting go-to-market toward HNW individuals and wealth managers. Defined the institutional positioning, partner strategy, and sales motion that unlocked the $250B donor-advised fund industry for on-chain infrastructure.
+
+### KlimaDAO — $1B market cap at launch
+Early contributor to KlimaDAO, which reached a $1B market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy and institutional positioning during the protocol's launch phase. Coined the term 'digital carbon', now standard industry language.
+
+### Policy and institutional adoption
+Advisor to the United Nations and European Commission on digital asset policy and adoption frameworks. Contributed to the formation of on-chain carbon markets and informed how institutional buyers and funds engage with tokenised environmental assets.
+
+## Selected Client Outcomes
+- Defined the operating model for a family office's first digital asset allocation — custody selection, governance structure, and reporting integration
+- Mapped jurisdictional options across Switzerland and the EU for a wealth manager evaluating MiCA-compliant fund structures, resulting in a decision framework adopted by their investment committee
+- Built partner evaluation and selection logic for custodians and execution venues, used to shortlist and onboard three infrastructure providers
+- Designed the institutional GTM playbook that drove Endaoment's growth from $25M to $130M, covering HNW acquisition, wealth manager partnerships, and onboarding architecture
+
+## Institutional Anchors (background and affiliations)
+University of Oxford, ESCP Business School, BNP Paribas, EDF Energy, United Nations (advisor), European Commission (advisor), Endaoment, KlimaDAO
+
+## Target Clients
+- Family offices and UHNW principals
+- Wealth managers and private banks
+- Digital asset funds and allocators
+- Custody, trading, and reporting infrastructure providers
+- Founders building institutional crypto products
+
+## Engagement Model
+- Retained engagements directly with founders and executive teams
+- Works alongside custody providers, infrastructure partners, and existing advisors
+- Engagements are discrete, confidential, and shaped around institutional decision processes
+
+## Geographic Focus
+- Switzerland (Zurich, Zug) — primary base
+- European Union — MiCA transition advisory
+- Global institutional markets
+
+## Contact
+Email: vishal@elemental.so
+LinkedIn: https://linkedin.com/in/vishkap
+Website: https://elemental.so
+Currently available for 3 new engagements.

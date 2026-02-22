@@ -11,16 +11,26 @@ Elemental is the practice of Vishal Kapadia. I advise family offices, wealth man
 - Wealth management and family office advisory
 - Real-world assets (RWA) and tokenization
 - Regulatory compliance and jurisdictional mapping
+- FINMA regulatory posture
 
 ## Services
-1. **Research**: Jurisdiction and infrastructure mapping across custody, fund structures, market plumbing, privacy, and reporting. Institutional constraints, not narratives.
-2. **Advisory**: Retained engagements to define strategy, structure, and operating model for institutional digital asset exposure.
-3. **Build**: Selective execution support to turn strategy into systems, workflows, and integrations.
+1. **MiCA Readiness Diagnostic** (2 weeks): Structured gap analysis against MiCA requirements. Prioritised risk map and decision framework for compliance teams.
+2. **Swiss Market Entry Roadmap** (4 weeks): Jurisdiction mapping across Switzerland and the EU, custody provider shortlist, regulatory posture assessment, and investment committee decision framework.
+3. **Institutional GTM Sprint** (8 weeks, retained): Target institutional clients identified, pitch materials built for compliance scrutiny, outreach strategy structured for commercial sustainability.
 
 ## Track Record
-- **Endaoment — $25M to $130M**: Grew Endaoment, an on-chain donor-advised fund, from $25M to $130M in revenue by pivoting go-to-market toward HNW individuals and wealth managers.
-- **KlimaDAO — $1bn market cap**: Early contributor to KlimaDAO, which reached a $1bn market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy, institutional positioning, and go-to-market architecture.
-- **Policy and adoption**: Contributed to applied research with the World Bank and Gold Standard on digital carbon markets, real-world assets, and institutional adoption of on-chain structures.
+- **Endaoment — $25M to $130M AUM**: Pivoted go-to-market toward HNW individuals and wealth managers. Defined institutional positioning, partner strategy, and sales motion that unlocked the $250B donor-advised fund industry for on-chain infrastructure.
+- **KlimaDAO — $1B market cap at launch**: Early contributor. Defined partner strategy and institutional positioning during launch phase. Coined the term 'digital carbon', now standard industry language.
+- **Policy and institutional adoption**: Advisor to the United Nations and European Commission on digital asset policy and adoption frameworks. Contributed to the formation of on-chain carbon markets.
+
+## Selected Outcomes
+- Defined the operating model for a family office's first digital asset allocation — custody selection, governance structure, and reporting integration
+- Mapped jurisdictional options across Switzerland and the EU for a wealth manager evaluating MiCA-compliant fund structures
+- Built partner evaluation and selection logic for custodians and execution venues
+- Designed the institutional GTM playbook that drove Endaoment's growth from $25M to $130M
+
+## Institutional Anchors
+University of Oxford, ESCP Business School, BNP Paribas, EDF Energy, United Nations (advisor), European Commission (advisor), Endaoment, KlimaDAO
 
 ## Target Clients
 - Family offices and UHNW principals
@@ -37,10 +47,11 @@ Elemental is the practice of Vishal Kapadia. I advise family offices, wealth man
 ## Key Pages
 - https://elemental.so (Homepage)
 - https://elemental.so/approach (Methodology)
+- https://elemental.so/resources (Frameworks — coming soon)
 
 ## Contact
 vishal@elemental.so
-Engagements are discrete, confidential, and shaped around institutional decision processes.
+Currently available for 3 new engagements. Based in Zurich/Zug, focused on the MiCA transition window.
 
 ## About This File
 This file (llms.txt) provides machine-readable information about Elemental for large language models and AI systems. For human visitors, please visit https://elemental.so.
