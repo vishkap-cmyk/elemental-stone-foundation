@@ -2,58 +2,59 @@
 
 export type ServiceItem = {
   title: string;
-  duration: string;
-  body: string;
-  forLine: string;
+  description: string;
+  bestFor: string;
+  output: string;
   ctaText: string;
   ctaHref: string;
 };
 
-export type TrackRecordItem = {
-  metric: string;
+export type ProofBlock = {
+  title: string;
   description: string;
+};
+
+export type CaseStudy = {
+  title: string;
+  context: string;
+  work: string;
+  outcome: string;
 };
 
 export type HomeCopy = {
   hero: {
     headline: string;
     subhead: string;
+    credibility: string;
   };
   heroCta: {
     text: string;
     href: string;
   };
-  heroSecondary: string;
-  credibilityBar: string[];
-  whyItMatters: {
-    lead: string;
-    body: string;
-  };
-  trackRecord: TrackRecordItem[];
-  outcomes: string[];
+  problems: string[];
+  proof: ProofBlock[];
   services: {
     headline: string;
-    subheadline: string;
     items: ServiceItem[];
-    note: string;
   };
   whoIWorkWith: string[];
-  howIEngage: string[];
+  howIWork: string[];
   footerCta: {
-    headline: string;
     body: string;
     ctaText: string;
     ctaHref: string;
-    secondary: string;
+    email: string;
   };
+  caseStudies: CaseStudy[];
 };
 
 export const home: HomeCopy = {
   hero: {
-    headline:
-      "The institutional digital asset window is open. Most platforms will miss it.",
+    headline: "Institutional digital asset advisory for Europe",
     subhead:
-      "I help digital asset platforms, family offices, and wealth managers navigate the operational reality of institutional adoption — custody, governance, MiCA compliance, and the relationships that make regulated institutions say yes.",
+      "I help digital asset platforms, wealth managers, and family offices navigate custody, governance, MiCA readiness, and institutional go-to-market.",
+    credibility:
+      "Led by Vishal Kapadia — Oxford, ESCP, Endaoment, KlimaDAO.",
   },
 
   heroCta: {
@@ -61,108 +62,134 @@ export const home: HomeCopy = {
     href: "mailto:vishal@elemental.so",
   },
 
-  heroSecondary:
-    "Currently advising on EU market entry and MiCA readiness. 3 engagements available.",
-
-  credibilityBar: [
-    "University of Oxford",
-    "ESCP Business School",
-    "BNP Paribas",
-    "EDF Energy",
-    "United Nations (advisor)",
-    "European Commission (advisor)",
-    "Endaoment",
-    "KlimaDAO",
+  problems: [
+    "Evaluating Europe without a structure compliance can stand behind",
+    "Choosing custody, counterparties, and governance without creating problems later",
+    "Translating digital-asset capability into language institutional buyers can approve",
+    "Building an institutional GTM motion that survives diligence",
   ],
 
-  whyItMatters: {
-    lead: "Digital assets are entering institutional portfolios. The operating reality hasn't caught up.",
-    body: "For wealth managers, family offices, and fund operators, the hard problems are custody architecture, governance structure, counterparty risk, MiCA compliance, and integration with existing investment processes. Most platforms are built for retail adoption. Institutional entry requires a different playbook — one built around what holds up under regulatory and fiduciary scrutiny, not what sounds good in a pitch deck. The MiCA transition window is open now. The platforms that move in the next 12 months will define the institutional digital asset landscape for the next decade. The ones that wait will be locked out.",
-  },
-
-  trackRecord: [
+  proof: [
     {
-      metric: "Endaoment — $25M to $130M AUM",
+      title: "Endaoment",
       description:
-        "Grew Endaoment from $25M to $130M in assets under management by pivoting go-to-market toward HNW individuals and wealth managers. Defined the institutional positioning, partner strategy, and sales motion that unlocked the $250B donor-advised fund industry for on-chain infrastructure.",
+        "Helped define the institutional GTM and partner strategy that supported growth from $25M to $130M AUM.",
     },
     {
-      metric: "KlimaDAO — $1B market cap at launch",
+      title: "KlimaDAO",
       description:
-        "Early contributor to KlimaDAO, which reached a $1B market cap at launch and brought 25 million tons of carbon on-chain. Defined partner strategy and institutional positioning during the protocol's launch phase. Coined the term 'digital carbon', now standard industry language.",
+        "Worked on institutional positioning and partner strategy during launch, helping translate a novel on-chain model into language institutions could engage with.",
     },
     {
-      metric: "Policy and institutional adoption",
+      title: "Policy and market development",
       description:
-        "Advisor to the United Nations and European Commission on digital asset policy and adoption frameworks. Contributed to the formation of on-chain carbon markets and informed how institutional buyers and funds engage with tokenised environmental assets.",
+        "Advised the United Nations and European Commission on digital asset adoption frameworks and on-chain market design.",
     },
-  ],
-
-  outcomes: [
-    "Defined the operating model for a family office's first digital asset allocation — custody selection, governance structure, and reporting integration",
-    "Mapped jurisdictional options across Switzerland and the EU for a wealth manager evaluating MiCA-compliant fund structures, resulting in a decision framework adopted by their investment committee",
-    "Built partner evaluation and selection logic for custodians and execution venues, used to shortlist and onboard three infrastructure providers",
-    "Designed the institutional GTM playbook that drove Endaoment's growth from $25M to $130M, covering HNW acquisition, wealth manager partnerships, and onboarding architecture",
-    "More client outcomes coming soon",
+    {
+      title: "Selected client work",
+      description:
+        "Defined digital-asset operating models, custody evaluation, and jurisdictional decision frameworks for family office and wealth-management contexts.",
+    },
   ],
 
   services: {
-    headline: "How I Can Help",
-    subheadline:
-      "Three scoped engagements. Fixed outcomes. Senior-led.",
+    headline: "Engagements",
     items: [
       {
         title: "MiCA Readiness Diagnostic",
-        duration: "2 weeks",
-        body: "A structured gap analysis of your current structure against MiCA requirements. You receive a prioritised risk map and a decision framework your compliance team can act on immediately.",
-        forLine:
-          "For: Digital asset platforms, funds, and wealth managers preparing for EU market entry in 2025–26.",
+        description:
+          "A structured review of your current operating model against likely MiCA requirements and institutional diligence expectations.",
+        bestFor:
+          "Platforms, funds, and wealth managers preparing for EU market entry.",
+        output:
+          "Priority gaps, risk map, and a decision framework your team can act on.",
         ctaText: "Enquire",
         ctaHref: "mailto:vishal@elemental.so",
       },
       {
         title: "Swiss Market Entry Roadmap",
-        duration: "4 weeks",
-        body: "Jurisdiction mapping across Switzerland and the EU, custody provider shortlist, regulatory posture assessment, and a structured decision framework for your investment committee.",
-        forLine:
-          "For: Funds and platforms anchoring in Zurich or Zug, or evaluating Switzerland as a primary jurisdiction.",
+        description:
+          "Jurisdiction mapping across Switzerland and the EU, custody provider evaluation, regulatory posture assessment, and a structured decision framework.",
+        bestFor:
+          "Funds and platforms anchoring in Zurich or Zug, or evaluating Switzerland as a primary jurisdiction.",
+        output:
+          "Jurisdictional comparison, custody shortlist, and investment committee-ready decision framework.",
         ctaText: "Enquire",
         ctaHref: "mailto:vishal@elemental.so",
       },
       {
         title: "Institutional GTM Sprint",
-        duration: "8 weeks, retained",
-        body: "First three target institutional clients identified. Pitch materials built for compliance and fiduciary scrutiny. Outreach strategy and partner engagement structured for commercial sustainability.",
-        forLine:
-          "For: Series A+ digital asset platforms ready to sell to family offices, private banks, or wealth managers.",
+        description:
+          "First three target institutional clients identified. Pitch materials built for compliance and fiduciary scrutiny. Outreach and partner engagement structured for commercial sustainability.",
+        bestFor:
+          "Series A+ digital asset platforms ready to sell to family offices, private banks, or wealth managers.",
+        output:
+          "Target client shortlist, institutional pitch deck, and structured outreach plan.",
         ctaText: "Enquire",
         ctaHref: "mailto:vishal@elemental.so",
       },
     ],
-    note: "All engagements are retained, senior-led, and measured by institutional outcomes. I work with 3–4 organisations at a time.",
   },
 
   whoIWorkWith: [
-    "Family offices and UHNW principals",
-    "Wealth managers and private banks",
-    "Digital asset funds and allocators",
-    "Custody, trading, and reporting infrastructure providers",
-    "Founders building institutional crypto products",
+    "Digital asset platforms entering Europe",
+    "Wealth managers and private banks evaluating digital-asset capability",
+    "Family offices and allocators building first operating models",
+    "Custody, trading, and reporting providers selling into institutional buyers",
   ],
 
-  howIEngage: [
-    "Retained engagements directly with founders and executive teams",
-    "I work alongside custody providers, infrastructure partners, and existing advisors to complement what's already in place",
-    "Engagements are discrete, confidential, and shaped around institutional decision processes — not volume delivery",
-    "Client testimonials and references available on request",
+  howIWork: [
+    "Direct with founders, CIOs, and executive teams",
+    "Scoped, senior-led engagements with clear outputs",
+    "Built around real institutional decision processes, not slide production",
   ],
 
   footerCta: {
-    headline:
-      "If you're preparing for institutional market entry in Europe in the next 6 months, let's talk.",
-    body: "I'm available for a scoped conversation to map constraints and decision paths. No pitch. No deck. Just a direct conversation about what you're building and whether I can help.",
+    body: "If you are evaluating institutional market entry in Europe, I can help map the structural, regulatory, and commercial decisions that matter first.",
     ctaText: "Book a scoped conversation",
     ctaHref: "mailto:vishal@elemental.so",
-    secondary: "vishal@elemental.so · Currently available for 3 new engagements.",
+    email: "vishal@elemental.so",
   },
+
+  caseStudies: [
+    {
+      title: "Endaoment",
+      context:
+        "A crypto-native donor-advised fund looking to move beyond retail adoption and build institutional credibility with wealth managers and HNW donors.",
+      work: "Defined the institutional go-to-market strategy, partner acquisition framework, and positioning for the $250B donor-advised fund industry. Built the sales motion that translated on-chain infrastructure into language wealth managers could recommend.",
+      outcome: "Growth from $25M to $130M in assets under management.",
+    },
+    {
+      title: "KlimaDAO",
+      context:
+        "A novel on-chain carbon market protocol at launch, needing institutional positioning and partner strategy to establish credibility beyond DeFi-native audiences.",
+      work: "Defined partner strategy and institutional positioning during the protocol's launch phase. Helped translate an unfamiliar on-chain model into terms that institutional buyers and funds could evaluate. Coined the term 'digital carbon', now standard industry language.",
+      outcome:
+        "$1B market cap at launch. 25 million tons of carbon brought on-chain.",
+    },
+    {
+      title: "Policy and institutional advisory",
+      context:
+        "The United Nations and European Commission needed frameworks for understanding digital asset adoption and on-chain market infrastructure.",
+      work: "Advised on digital asset policy, adoption frameworks, and the formation of on-chain carbon markets. Contributed to shaping how institutional buyers and funds engage with tokenised environmental assets.",
+      outcome:
+        "Informed policy frameworks and institutional engagement models for digital assets at a multilateral level.",
+    },
+    {
+      title: "Family office operating model",
+      context:
+        "A European family office evaluating its first digital asset allocation, with no existing infrastructure or internal expertise.",
+      work: "Defined the operating model end-to-end: custody selection, governance structure, counterparty evaluation, and reporting integration with existing investment processes.",
+      outcome:
+        "Investment committee-approved operating model and custody architecture. First allocation executed.",
+    },
+    {
+      title: "Jurisdictional decision framework",
+      context:
+        "A wealth manager evaluating MiCA-compliant fund structures across Switzerland and the EU, needing a structured comparison their investment committee could act on.",
+      work: "Mapped jurisdictional options, regulatory postures, and custody provider landscapes. Built a decision framework covering compliance, operational, and commercial dimensions.",
+      outcome:
+        "Decision framework adopted by the investment committee. Jurisdiction selected and entry process initiated.",
+    },
+  ],
 };
