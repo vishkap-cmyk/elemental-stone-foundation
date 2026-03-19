@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const navItems = [
-  { label: "Approach", to: "/approach" },
-  { label: "Results", to: "/#results" },
-  { label: "Resources", to: "/resources" },
+  { label: "Work", to: "/work" },
+  { label: "Engagements", to: "/engagements" },
+  { label: "Contact", to: "/contact" },
 ];
 
 const Header = () => {
